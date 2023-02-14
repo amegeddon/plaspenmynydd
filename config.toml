@@ -1,9 +1,9 @@
 # hugo server --minify --themesDir ... --baseURL=http://0.0.0.0:1313/theme/hugo-book/
 
-baseURL = 'https://example.com/'
-title = 'Hugo Book'
+baseURL = 'https://amegeddon.github.io/plaspenmynydd/'
+title = 'Plas Penmynydd'
 theme = 'hugo-book'
-
+publishDir = 'docs'
 # Book configuration
 disablePathToLower = true
 enableGitInfo = true
