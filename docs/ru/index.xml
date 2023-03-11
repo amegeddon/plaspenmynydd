@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Введение on Plas Penmynydd</title>
+    <title>Plas Penmynydd</title>
     <link>https://amegeddon.github.io/plaspenmynydd/ru/</link>
-    <description>Recent content in Введение on Plas Penmynydd</description>
+    <description>Recent content on Plas Penmynydd</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://amegeddon.github.io/plaspenmynydd/ru/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
