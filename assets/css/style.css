@@ -41,4 +41,12 @@ body {
 }
 
 
+/* ....... explore-section .......*/
+
+.carousel .carousel-item {
+  transition-duration: 2s;
+}
+
+/* ....... explore-section .......*/
+
 
