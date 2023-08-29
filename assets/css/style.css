@@ -11,13 +11,26 @@ body {
 }
 
 .metallic-gold {
-    background: linear-gradient(45deg,  #A8445E, #874c62);
-  }
+  background: linear-gradient(45deg, #a8445e, #874c62);
+}
+
+hr {
+  display: block;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: .2em;
+  color:#a8445e;
+  width:80%;
+  border-style:solid;
+  
+
+}
 
 /* ....... Navbar .......*/
 .navbar {
   background-color: #874c62;
-
 }
 
 .navbar-nav {
@@ -25,20 +38,23 @@ body {
   letter-spacing: 2px;
 }
 
-
 .nav-link {
-    color: #e5dfd2;
+  color: #e5dfd2;
 }
-
 
 .navbar-brand {
   font-size: 1.5rem;
   font-weight: 600;
   letter-spacing: 3px;
   color: #e5dfd2;
- 
-
 }
+
+/* ....... hero-image-text .......*/
+#blurb {
+  background-color: #052a05 ;
+  color:beige;
+}
+/* ....... hero-image-text .......*/
 
 
 /* ....... explore-section .......*/
@@ -48,5 +64,3 @@ body {
 }
 
 /* ....... explore-section .......*/
-
-
