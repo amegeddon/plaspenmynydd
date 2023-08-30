@@ -3,6 +3,11 @@ body {
   background-color: #fdfcfa;
 }
 
+h2 {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
 .primarytextcolor {
   color: ;
 }
@@ -61,6 +66,19 @@ hr {
 
 .carousel .carousel-item {
   transition-duration: 2s;
+}
+
+/* ....... changes the speed of transition effect .......*/
+.carousel-item {
+  transition: transform 2.5s ease-in-out;
+}
+
+/* ....... changes the speed of transition fade .......*/
+
+
+.carousel-fade .active.carousel-item-start,
+.carousel-fade .active.carousel-item-end {
+  transition: opacity 0s 2.5s;
 }
 
 /* ....... explore-section .......*/
