@@ -25,15 +25,18 @@ hr {
   margin-bottom: 2em;
   margin-left: auto;
   margin-right: auto;
-  border-width: .2em;
-  color:#a8445e;
-  width:80%;
-  border-style:solid;
-  
-
+  border-width: 0.2em;
+  color: #a8445e;
+  width: 80%;
+  border-style: solid;
 }
 
 /* ....... Navbar .......*/
+.navbar-toggler-icon {
+  color:#e5dfd2;
+  border: 1px solid #e5dfd2;
+}
+
 .navbar {
   background-color: #874c62;
 }
@@ -54,13 +57,21 @@ hr {
   color: #e5dfd2;
 }
 
+
+nav a:hover {
+  border-bottom: 1px solid #e5dfd2;
+  color:#8EBE94;
+}
+
+
+
+
 /* ....... hero-image-text .......*/
 #blurb {
-  background-color: #052a05 ;
-  color:beige;
+  background-color: #144a14;
+  color: beige;
 }
 /* ....... hero-image-text .......*/
-
 
 /* ....... explore-section .......*/
 
@@ -74,7 +85,6 @@ hr {
 }
 
 /* ....... changes the speed of transition fade .......*/
-
 
 .carousel-fade .active.carousel-item-start,
 .carousel-fade .active.carousel-item-end {
