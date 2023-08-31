@@ -9,14 +9,19 @@ h2 {
 }
 
 .primarytextcolor {
-  color: ;
+  color: #e5dfd2 ;
 }
 
 .secondarytextcolor {
 }
 
-.metallic-gold {
+.pink-transition {
   background: linear-gradient(45deg, #a8445e, #874c62);
+}
+
+.green-transition {
+  background:linear-gradient(45deg, #8EBE94, 
+  #1f561f);
 }
 
 hr {
@@ -39,15 +44,21 @@ hr {
 
 .navbar {
   background-color: #874c62;
+  padding-left: 20px;
 }
 
 .navbar-nav {
   font-size: 16px;
   letter-spacing: 2px;
+  
 }
 
+
+/*.....cant seem to overwrite bootstrap padding here*/
 .nav-link {
   color: #e5dfd2;
+  text-transform: uppercase;
+  
 }
 
 .navbar-brand {
@@ -59,7 +70,7 @@ hr {
 
 
 .navbar a:hover {
-  border-bottom: 1px solid #e5dfd2;
+  border-bottom: 1px solid #8EBE94;
   color:#8EBE94;
 }
 
@@ -69,8 +80,11 @@ hr {
 
 /* ....... hero-image-text .......*/
 #blurb {
-  background-color: #144a14;
-  color: beige;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 50px 50px 0px 50px;
 }
 /* ....... hero-image-text .......*/
 
@@ -93,3 +107,20 @@ hr {
 }
 
 /* ....... explore-section .......*/
+
+
+footer {
+background-color: rgba(31,86,31,0.65);
+min-height:150px;
+margin: 0; 
+}
+
+
+/* ....... media queries .......*/
+
+
+@media only screen and (max-width: 480px) {
+  .tickets {
+    background-color:  #8EBE94;
+  }
+}
