@@ -120,6 +120,20 @@ footer img {
   width: 300px;
 }
 
+/* ....... explore-section .......*/
+
+/* ....... history of house -image navigation links.......*/
+
+.imagebg {
+  background-color: rgba(31,86,31,0.15) 
+}
+  
+.history a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* ....... history of house -image navigation links end.......*/
 
 /* ....... media queries .......*/
 
