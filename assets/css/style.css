@@ -135,6 +135,31 @@ footer img {
 
 /* ....... history of house -image navigation links end.......*/
 
+/* ....... contact page .......*/
+
+.contact {
+  background-image: url('/assets/images/bookshelves.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center;
+  
+  
+
+
+}
+
+form {
+  background: rgba(1, 1, 1, 0.6);
+}
+
+.form-control {
+  background: rgba(1, 1, 1, 0.3);
+}
+  
+
+
+
 /* ....... media queries .......*/
 
 
