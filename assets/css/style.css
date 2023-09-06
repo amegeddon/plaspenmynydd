@@ -137,20 +137,20 @@ footer img {
   background-color: rgba(31,86,31,0.15) 
 }
   
-#history a {
+#history-section a {
   text-decoration: none;
   color: #000;
 }
 p {
   color: #808080;
 }
-#history blockquote {
+#history-section blockquote {
   background-color: rgba(168,68,94,0.2);
   border-radius: 10px ;
  }
 
  
- #history blockquote p{
+ #history-section blockquote p{
   color: #333333;
 }
 
