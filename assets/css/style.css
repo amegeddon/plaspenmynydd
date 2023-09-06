@@ -142,4 +142,7 @@ footer img {
   .tickets {
     background-color:  #8EBE94;
   }
+  .contact h2,h4 {
+    text-align: center ;
+  }
 }
