@@ -3,9 +3,6 @@ body {
   background-color: #fdfcfa;
 }
 
-body p {
-  color:#808080;
-}
 
 h2 {
   font-weight: 600;
@@ -18,6 +15,10 @@ h2 {
 
 .secondarytextcolor {
   color:#000;
+}
+
+.greytextcolor {
+    color:#808080;
 }
 
 .pink-transition {
@@ -94,6 +95,10 @@ hr {
 
 /* ....... explore-section .......*/
 
+#explore {
+  color:#333333;
+}
+
 .carousel .carousel-item {
   transition-duration: 2s;
 }
@@ -132,10 +137,25 @@ footer img {
   background-color: rgba(31,86,31,0.15) 
 }
   
-.history a {
+#history a {
   text-decoration: none;
   color: #000;
 }
+p {
+  color: #808080;
+}
+#history blockquote {
+  background-color: rgba(168,68,94,0.2);
+  border-radius: 10px ;
+ }
+
+ 
+#history blockquote p{
+  color: #333333;
+}
+
+
+
 
 /* ....... history of house -image navigation links end.......*/
 
