@@ -137,7 +137,7 @@ footer img {
 
 /* ....... contact page .......*/
 
-.contact {
+#contact {
   background-image: url('/assets/images/bookshelves.jpg');
   background-size: cover;
   background-repeat: no-repeat;
