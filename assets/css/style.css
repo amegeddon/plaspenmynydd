@@ -162,7 +162,7 @@ p {
 /* ....... contact page .......*/
 
 #contact {
-  background-image: url('/assets/images/study_bg.jpg');
+  background-image: url('../images/study_bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
