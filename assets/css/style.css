@@ -136,15 +136,15 @@ hr {
 
 .carousel-caption h5 {
   font-family: font-family: 'EB Garamond', serif; 
-  font-weight: 600;
+  font-weight: 700;
   color: #e5dfd2;
   background: rgba(0, 0, 128, 0.1)
 }
 
 .carousel-caption p {
   font-family: font-family: 'EB Garamond', serif; 
-  font-weight: 00;
-  color: #e5dfd2;
+  font-weight: 600;
+  color: #ffffff;
   background: rgba(0, 0, 128, 0.1)
 }
 
