@@ -121,6 +121,7 @@ hr {
   transition-duration: 2s;
 }
 
+
 /* ....... changes the speed of transition effect .......*/
 .carousel-item {
   transition: transform 2.5s ease-in-out;
@@ -131,6 +132,20 @@ hr {
 .carousel-fade .active.carousel-item-start,
 .carousel-fade .active.carousel-item-end {
   transition: opacity 0s 2.5s;
+}
+
+.carousel-caption h5 {
+  font-family: font-family: 'EB Garamond', serif; 
+  font-weight: 600;
+  color: #e5dfd2;
+  background: rgba(0, 0, 128, 0.1)
+}
+
+.carousel-caption p {
+  font-family: font-family: 'EB Garamond', serif; 
+  font-weight: 00;
+  color: #e5dfd2;
+  background: rgba(0, 0, 128, 0.1)
 }
 
 /* ....... explore-section .......*/
@@ -214,7 +229,8 @@ form {
 
 @media only screen and (max-width: 480px) {
   .tickets {
-    background-color:  #8EBE94;
+    background-color:rgba(142,190,148,0.5);
+    
   }
   .contact h2,h4 {
     text-align: center ;
