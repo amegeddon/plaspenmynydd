@@ -15,6 +15,14 @@ h2 {
   font-weight: 600;
   letter-spacing: 1px;
   font-family: 'EB Garamond', serif; 
+  color: #444444;
+}
+
+h3{
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family:'EB Garamond', serif; 
+  color: #444444;
 }
 
 .primarytextcolor {
@@ -79,7 +87,7 @@ hr {
 
 .navbar-brand {
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: 1.5px;
   color: #e5dfd2;
   font-family: 'EB Garamond', serif; 
@@ -103,14 +111,14 @@ hr {
   text-transform: uppercase;
   padding: 50px 50px 0px 50px;
   font-family: 'EB Garamond', serif; 
-  color: #222222;
+  color: #444444;
 }
 /* ....... hero-image-text .......*/
 
 /* ....... explore-section .......*/
 
 #explore {
-  color:#333333;
+  color:#666666;
   font-family: 'EB Garamond', serif; 
   font-size: 18px;
   font-weight: 500;
@@ -177,21 +185,34 @@ footer img {
   background-color: rgba(31,86,31,0.15) 
 }
   
-#history-section a {
+.history a {
   text-decoration: none;
-  color: #000;
 }
-p {
-  color: #808080;
+
+.history a p:hover {
+  text-decoration: none;
+  color:#ffd700;
 }
-#history-section blockquote {
+
+.history p {
+  color: #666666;
+  font-weight: 500;
+  font-family: 'EB Garamond', serif;
+  font-size:17px;
+  
+}
+
+.blockquote {
   background-color: rgba(168,68,94,0.2);
   border-radius: 10px ;
+  
  }
 
  
- #history-section blockquote p{
-  color: #333333;
+ .blockquote p{
+  color:#222222;
+  font-family: 'EB Garamond', serif; 
+  font-size: 1.25rem;
 }
 
 
