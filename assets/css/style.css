@@ -1,3 +1,10 @@
+/* ....... font family .......*/
+font-family: 'EB Garamond', serif;
+font-family: 'Pacifico', cursive;
+/* ....... general .......*/
+
+
+
 /* ....... general .......*/
 body {
   background-color: #fdfcfa;
@@ -7,6 +14,7 @@ body {
 h2 {
   font-weight: 600;
   letter-spacing: 1px;
+  font-family: 'EB Garamond', serif; 
 }
 
 .primarytextcolor {
@@ -54,7 +62,8 @@ hr {
 
 .navbar-nav {
   font-size: 16px;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
+  font-family: 'EB Garamond', serif; 
   
 }
 
@@ -63,14 +72,17 @@ hr {
 .nav-link {
   color: #e5dfd2;
   text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: 'EB Garamond', serif; 
   
 }
 
 .navbar-brand {
   font-size: 1.5rem;
   font-weight: 600;
-  letter-spacing: 3px;
+  letter-spacing: 1.5px;
   color: #e5dfd2;
+  font-family: 'EB Garamond', serif; 
 }
 
 
@@ -87,9 +99,11 @@ hr {
 #blurb {
   font-size: 18px;
   font-weight: 500;
-  letter-spacing: 1.5px;
+  letter-spacing: 1px;
   text-transform: uppercase;
   padding: 50px 50px 0px 50px;
+  font-family: 'EB Garamond', serif; 
+  color: #222222;
 }
 /* ....... hero-image-text .......*/
 
@@ -97,6 +111,10 @@ hr {
 
 #explore {
   color:#333333;
+  font-family: 'EB Garamond', serif; 
+  font-size: 18px;
+  font-weight: 500;
+
 }
 
 .carousel .carousel-item {
@@ -122,6 +140,13 @@ footer {
 background-color: rgba(31,86,31,0.65);
 min-height:150px;
 margin: 0; 
+}
+
+footer p {
+font-family: 'EB Garamond', serif; 
+color:#526f52;
+font-size: 60px;
+font-weight: 500;
 }
 
 footer img {
@@ -193,5 +218,8 @@ form {
   }
   .contact h2,h4 {
     text-align: center ;
+  }
+  footer p {
+    font-size: 30px;
   }
 }
