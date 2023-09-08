@@ -107,6 +107,10 @@ hr {
   left:25%;
 }
 
+#hr {
+  width:80%;
+}
+
 
 /* ....... hero-image-text .......*/
 #blurb {
