@@ -99,7 +99,13 @@ hr {
 }
 
 
-
+#welcome {
+  font-size: 2rem;
+  background: #fff;
+  position:absolute;
+  top:40%;
+  left:25%;
+}
 
 
 /* ....... hero-image-text .......*/
