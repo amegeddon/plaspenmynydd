@@ -93,18 +93,37 @@ hr {
 }
 
 
-.navbar a:hover {
+.nav-link:hover {
   border-bottom: 1px solid #8EBE94;
-  color:#8EBE94;
+  color:#8EBE94 !important;
 }
 
 
 #welcome {
-  font-size: 2rem;
-  background: #fff;
+  font-size: 2.5rem;
+  background-color: rgba(113, 106, 104, 0.4);
   position:absolute;
-  top:40%;
+  top:35%;
   left:25%;
+  border: 4px solid rgba(218, 165, 32, 0.4);
+  
+}
+
+#welcome a {
+  text-decoration: none;
+}
+
+#welcome h2 {
+  color:#e5dfd2;
+  font-weight: 600;
+}
+
+#welcome h3 {
+  color: #f0ede7;
+}
+
+#welcome i {
+  color:rgba(109, 145, 109, 1);
 }
 
 #hr {
