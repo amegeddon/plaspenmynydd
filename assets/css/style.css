@@ -224,7 +224,6 @@ footer img {
 
 /*.... overlay with text for image links ...*/
 #parent {
-    border: 2px solid #808080;
     position: relative;
   }
   
@@ -264,14 +263,34 @@ footer img {
  
  .blockquote p{
   color:#222222;
-  font-family: 'EB Garamond', serif; 
-  font-size: 1.25rem;
+  font-family: 'EB Garamond', serif;
+  font-size: 1.25rem; 
+}
+
+.history hr {
+  width:80%;
+}
+
+figure img {
+  background-size: cover;
+  width:100%;
+  height:auto;
+}
+
+#figure-image {
+  background-color:rgba(82,111,82,0.7)
+}
+
+#figure-image figcaption {
+  color:#e5dfd2;
+  font-family:'EB Garamond', serif; 
+  font-weight: 600;
 }
 
 
 
 
-/* ....... history of house -image navigation links end.......*/
+/* ....... history of house end.......*/
 
 /* ....... contact page .......*/
 
