@@ -115,9 +115,7 @@ hr {
   left:7%;
   border: 10px solid rgba(218, 165, 32, 0.4);
   font-family: 'EB Garamond', serif; 
- 
-  
-}
+ }
 
 #welcome a {
   text-decoration: none;
@@ -155,7 +153,8 @@ hr {
   font-family: 'EB Garamond', serif; 
   color: #444444;
 }
-/* ....... hero-image-text .......*/
+/* ....... hero-image-text-end .......*/
+
 
 /* ....... explore-section .......*/
 
@@ -164,7 +163,6 @@ hr {
   font-family: 'EB Garamond', serif; 
   font-size: 18px;
   font-weight: 500;
-
 }
 
 .carousel .carousel-item {
@@ -188,14 +186,14 @@ hr {
   font-family: font-family: 'EB Garamond', serif; 
   font-weight: 700;
   color: #e5dfd2;
-  background: rgba(0, 0, 128, 0.1)
+  background: rgba(0, 0, 128, 0.1);
 }
 
 .carousel-caption p {
   font-family: font-family: 'EB Garamond', serif; 
   font-weight: 600;
   color: #ffffff;
-  background: rgba(0, 0, 128, 0.1)
+  background: rgba(0, 0, 128, 0.1);
 }
 
 /* ....... explore-section .......*/
@@ -219,30 +217,43 @@ footer img {
   width: 300px;
 }
 
-/* ....... explore-section .......*/
+/* ....... explore-section-end .......*/
 
-/* ....... history of house -image navigation links.......*/
 
-.imagebg {
-  background-color: rgba(31,86,31,0.15) 
-}
+/* ....... history of house.......*/
+
+/*.... overlay with text for image links ...*/
+
+#parent {
+    border: 2px solid black;
+    position: relative;
+  }
   
-.history a {
-  text-decoration: none;
-}
-
-.history a p:hover {
-  text-decoration: none;
-  color:#ffd700;
-}
+#overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(34, 139, 34, .5);
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: flex;
+    opacity: 0;
+    transition: .4s;
+  }
+  
+  #overlay:hover {
+    opacity: 1;
+  }
 
 .history p {
   color: #666666;
   font-weight: 500;
   font-family: 'EB Garamond', serif;
   font-size:17px;
-  
-}
+  }
 
 .blockquote {
   background-color: rgba(168,68,94,0.2);
