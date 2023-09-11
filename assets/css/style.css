@@ -216,16 +216,15 @@ footer img {
   height: 200px;
   width: 300px;
 }
-
 /* ....... explore-section-end .......*/
 
 
 /* ....... history of house.......*/
 
-/*.... overlay with text for image links ...*/
 
+/*.... overlay with text for image links ...*/
 #parent {
-    border: 2px solid black;
+    border: 2px solid #808080;
     position: relative;
   }
   
@@ -235,13 +234,15 @@ footer img {
     width: 100%;
     align-items: center;
     justify-content: center;
-    background-color: rgba(34, 139, 34, .5);
+    background-color: rgba(16, 18, 16, 0.5);
+    color:#ebe1cd;
     font-size: 2rem;
-    font-weight: bold;
-    font-family: sans-serif;
+    font-weight: 600;
+    font-family: 'EB Garamond', serif; 
     display: flex;
     opacity: 0;
     transition: .4s;
+    text-align: center;
   }
   
   #overlay:hover {
@@ -258,8 +259,7 @@ footer img {
 .blockquote {
   background-color: rgba(168,68,94,0.2);
   border-radius: 10px ;
-  
- }
+  }
 
  
  .blockquote p{
@@ -281,10 +281,6 @@ footer img {
   background-repeat: no-repeat;
   height: 100vh;
   background-position: center;
-  
-  
-
-
 }
 
 form {
