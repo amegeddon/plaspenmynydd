@@ -92,6 +92,10 @@ hr {
   font-family: 'EB Garamond', serif; 
 }
 
+.navbar-brand:hover {
+  color:#8EBE94;
+}
+
 
 .nav-link:hover {
   border-bottom: 1px solid #8EBE94;
