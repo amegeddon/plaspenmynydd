@@ -256,7 +256,7 @@ footer img {
   }
 
 .blockquote {
-  background-color: rgba(168,68,94,0.2);
+  background-color: rgba(168,68,94,0.15);
   border-radius: 10px ;
   }
 
@@ -278,7 +278,7 @@ figure img {
 }
 
 #figure-image {
-  background-color:rgba(82,111,82,0.7)
+  background-color:rgba(82,111,82,0.5)
 }
 
 #figure-image figcaption {
@@ -288,7 +288,7 @@ figure img {
 }
 
 #altblockquote {
-  background-color: rgba(135,76,98,0.5);
+  background-color: rgba(135,76,98,0.2);
 }
 
 
