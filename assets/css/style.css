@@ -135,7 +135,9 @@ hr {
 }
 
 #welcome i {
-  color:rgb(109, 145, 109);
+  color:#a8445e;
+  font-weight: bold;
+  background-color: rgba(68,68,68,0.5);
 }
 
 #hr {
@@ -252,7 +254,7 @@ footer img {
   color: #666666;
   font-weight: 500;
   font-family: 'EB Garamond', serif;
-  font-size:17px;
+  font-size:18px;
   }
 
 .blockquote {
@@ -277,11 +279,11 @@ figure img {
   height:auto;
 }
 
-#figure-image {
+.figure-image {
   background-color:rgba(82,111,82,0.5)
 }
 
-#figure-image figcaption {
+.figure-image figcaption {
   color:#fff8e6;
   font-family:'EB Garamond', serif; 
   font-weight: 500;
