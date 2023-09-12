@@ -282,10 +282,15 @@ figure img {
 }
 
 #figure-image figcaption {
-  color:#e5dfd2;
+  color:#fff8e6;
   font-family:'EB Garamond', serif; 
-  font-weight: 600;
+  font-weight: 500;
 }
+
+#altblockquote {
+  background-color: rgba(135,76,98,0.5);
+}
+
 
 
 
