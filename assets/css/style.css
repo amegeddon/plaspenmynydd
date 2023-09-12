@@ -293,9 +293,11 @@ figure img {
   background-color: rgba(135,76,98,0.2);
 }
 
-#indent {
-  text-indent: 100px;
-  font-style: italic;
+.history ul {
+  background-color: antiquewhite;
+  font-weight: 500;
+  font-family: 'EB Garamond', serif; 
+  padding: 2em
 }
 
 
