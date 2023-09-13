@@ -74,6 +74,12 @@ hr {
   
 }
 
+#shield-logo {
+  width: 45px;
+  height: 46px; 
+
+}
+
 
 /*.....cant seem to overwrite bootstrap padding here*/
 .nav-link {
@@ -225,11 +231,11 @@ footer img {
 
 
 /*.... overlay with text for image links ...*/
-#parent {
+.parent {
     position: relative;
   }
   
-#overlay {
+.overlay {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -246,7 +252,7 @@ footer img {
     text-align: center;
   }
   
-  #overlay:hover {
+  .overlay:hover {
     opacity: 1;
   }
 
@@ -280,11 +286,11 @@ figure img {
 }
 
 .figure-image {
-  background-color:rgba(82,111,82,0.5)
+  background-color:rgba(82,111,82,0.9)
 }
 
 .figure-image figcaption {
-  color:#fff8e6;
+  color:rgba(255, 255, 255, 1);
   font-family:'EB Garamond', serif; 
   font-weight: 500;
 }
@@ -341,8 +347,11 @@ form {
   }
   #welcome {
    display: none;
-}
-}
+  }
+  .history {
+  
+  }
+  }
 
 
 @media only screen and (min-width: 767px) {
