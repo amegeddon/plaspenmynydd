@@ -81,7 +81,7 @@ hr {
 }
 
 
-/*.....cant seem to overwrite bootstrap padding here*/
+
 .nav-link {
   color: #e5dfd2;
   text-transform: uppercase;
@@ -204,7 +204,11 @@ hr {
   background: rgba(0, 0, 128, 0.1);
 }
 
-/* ....... explore-section .......*/
+iframe {
+  width:100%;
+  height: auto;
+}
+/* ....... explore-section-end .......*/
 
 
 footer {
