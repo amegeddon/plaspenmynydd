@@ -237,14 +237,20 @@ footer img {
     align-items: center;
     justify-content: center;
     background-color: rgba(16, 18, 16, 0.5);
+    display: flex;
+    opacity: 0;
+    transition: .4s;
+   
+  }
+
+  .overlay h3 {
     color:#ebe1cd;
     font-size: 2rem;
     font-weight: 600;
     font-family: 'EB Garamond', serif; 
-    display: flex;
-    opacity: 0;
-    transition: .4s;
     text-align: center;
+    padding: 1em;
+
   }
   
   .overlay:hover {
