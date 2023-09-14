@@ -348,7 +348,8 @@ input[type="text"], input[type="email"] {
 
 
 #contact button {
-  background-color: #a8445e!important;
+  background-color: #1f561f!important;
+  border: 2px solid #526f52;
 }
 
 
