@@ -229,7 +229,7 @@ footer img {
 /* ....... history of house.......*/
 
 
-/*.... overlay with text for image links ...*/
+        /*.... overlay with text for image links ...*/
 .parent {
     position: relative;
   }
@@ -260,6 +260,8 @@ footer img {
   .overlay:hover {
     opacity: 1;
   }
+
+         /*.... overlay with text for image links-end ...*/
 
 .history p {
   color: #666666;
@@ -311,14 +313,13 @@ figure img {
   padding: 2em
 }
 
-
-
 /* ....... history of house end.......*/
+
 
 /* ....... contact page .......*/
 
 #contact {
-  background-image: url('../images/study_bg.jpg');
+  background-image: url('../images/study_bg1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -331,9 +332,46 @@ form {
 
 .form-control {
   background: rgba(1, 1, 1, 0.3);
-}
+  color: #e5dfd2;
   
+}
 
+input[placeholder] {
+  color:#ebe1cd !important;;
+}
+
+input[type="text"], input[type="email"] {
+  color:#000!important;
+
+}
+
+
+
+#contact button {
+  background-color: #a8445e!important;
+}
+
+
+#contactpage h4 {
+  font-weight: 600;
+  font-family:'EB Garamond', serif; 
+  letter-spacing: 2px;
+  font-size: 2em;
+  color: #ebe1cd;
+  font-style: bold;
+}
+
+#contactpage h2 {
+  font-weight: 700;
+  font-family:'EB Garamond', serif; 
+  letter-spacing: 2px;
+  font-style: bold;
+}
+
+#contactpage img {
+  opacity:0.1;
+}
+/* ....... contact page end .......*/
 
 
 /* ....... media queries .......*/
