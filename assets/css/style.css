@@ -181,18 +181,22 @@ hr {
   transition: opacity 0s 2.5s;
 }
 
+.caption-bg-dark {
+background-color:rgba(5, 5, 24, 0.1); 
+  
+}
+
 .carousel-caption h5 {
   font-family: 'EB Garamond', serif; 
   font-weight: 700;
   color: #e5dfd2;
-  background: rgba(0, 0, 128, 0.1);
+
 }
 
 .carousel-caption p {
   font-family: 'EB Garamond', serif; 
   font-weight: 600;
   color: #ffffff;
-  background: rgba(0, 0, 128, 0.1);
 }
 
 iframe {
