@@ -106,22 +106,22 @@ There was some deviation from the original wireframes:
 
 
 ### **Color Scheme:**
-When deciding the color scheme, I wanted to go with something that gave an elegant appearance. For this reason, I selected a range of blue and gold's and used the following color grid created on [https://contrast-grid.eightshapes.com/](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23fcf6ba%2C%0D%0A%23b38728%2C%0D%0A%23fbf5b7%2C%0D%0A%23bf953f%0D%0A%23000%0D%0A%23FFFFFF%2C%20%0D%0A%2306304b%0D%0A%23cfebfd%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) to check the contrast scores. Using this grid allowed me to ensure all text remained visible and the site was accessible to all.
-
-![Color contrast grid](docs/screenshots/color-grid.png)
+From the beginning I was keen to give the website an elegant look and have opted for simplicity. I began with a body background color of a very light shade of off-white, as I found this more subtle than antique white. I then experimented with red and green, settling on shades that I felt contrasted well with one another and which felt warm and inviting. Ive utilised subtle color transitions on the nav bar and footer by using linear gradients. This was in aid of softening the page and reducing the starkness of large blocks of solid color.  
 
 ## **Current Features Common to all pages**
 ###  **Header Element**
-The header element sticks to the top of the page as the user scrolls up and down. Originally I had designed the page with a "return to top" link at the bottom of the page. However, a Code Institute graduate pointed out that the sticky header would provide a more pleasant UX and adhere to popular conventions better. The header itself contains the following features: 
+I choose not to use a header and instead opted for a simple nav bar at the top of the page. 
 
 #### *Title:*
 ![Page title](docs/screenshots/title.jpg)
 
-* The title serves to state the name of the tradition.
-* It also serves as a navigation link to the home page called "about" as per the well-established convention expected by the user.
+* The title of the page is Plas Penmynydd, this being the House name. Plas translates from welsh to House and Penmynydd translates to hill, so essentially house on the hill. 
+* The title also serves as a navigation link to the homepage as we have come to expect as internet users. 
+
 
 #### *Logos:*
-* The logos illustrate the site's theme and offer something to appease the user's eye by filling the blank space without distracting from the title.
+* The chosen logo is the tudor shield, it is easily recognisable as such and feels apt given the tudor lineage linked to the house. It adds visual appeal and draws the eye to the website brand name: Plas Penmynydd. 
+
 
     * One logo on mobile devices ensured the title stays as big as possible on a smaller screen, improving the user experience.
 
