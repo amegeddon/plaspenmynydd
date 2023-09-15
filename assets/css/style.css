@@ -383,8 +383,11 @@ input[type="text"], input[type="email"] {
   .tickets {
     background-color:rgba(142,190,148,0.5);
     }
-  .contact h2,h4 {
+  #contact h2,h4 {
     text-align: center ;
+  }
+  #contact h2 {
+    padding-top:60px !important;
   }
   footer p {
     font-size: 30px;
@@ -395,9 +398,14 @@ input[type="text"], input[type="email"] {
   .history p {
     font-size: 16px;
   }
+  form {
+    margin-top: 14%;
+  }
   }
 /* ....... mobile-end .......*/
 
+
+/* ....... tablet .......*/
 @media only screen and (min-width: 767px) {
   #welcome {
     background-color: rgba(113, 106, 104, 0.4);
@@ -412,7 +420,30 @@ input[type="text"], input[type="email"] {
   #welcome p {
     font-size: 50px ;
   }
+  form {
+    margin-top: 15%;
+  }
+  #contact h2,h4 {
+    text-align: center ;
+  }
+  #contact h2 {
+    padding-top:140px !important;
+  }
 }
+
+/* ....... tablet end .......*/
+
+
+/*........ ipad air .........*/
+@media only screen and (min-width: 820px) {
+  form {
+    margin-top: 18%;
+  } 
+  #contact h2 {
+    padding-top:200px !important;
+  }
+}
+
 
 @media only screen and (min-width: 1024px) {
   #welcome {
@@ -429,7 +460,11 @@ input[type="text"], input[type="email"] {
     font-size: 1.5rem ;
   }
   form {
-    margin-top: 30%;
+    margin-top: 13%;
+  } 
+  #contact h2 {
+    padding-top:100px !important;
   }
+  
 }
 
