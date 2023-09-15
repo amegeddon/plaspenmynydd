@@ -138,7 +138,7 @@ I choose not to use a header and instead opted for a simple nav bar at the top o
 * The navigation bar contains links to the homepage (through the plas penmynydd navbrand), History and contact us pages.Its sticky position has the effect that the user can easily navigate between the pages at anytime. 
 * To ease user navigation there is an active class that shows the user which page they are currently on - the below image shows the active home page which appears white, whilst the other pages appear pink. This is subtle, but hopefully not to subtle. 
 * When the navlinks are hovered over the text of the navlink turns a contrasting green color and is underlined.
-![Navigation bar](docs/screenshots/)
+![Navigation bar](docs/screenshots/navbar-desktop.png)
 
 ***
 ### **Homepage**:
