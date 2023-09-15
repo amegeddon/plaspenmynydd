@@ -42,8 +42,21 @@ Plas Penmynydd is a private home in rural Anglesey, North Wales. it has the most
     * [*Zoomed out image of the history page content section*](docs/screenshots/)
     * [**Contact Page Content**](#contact-page-content)
     * [*Contact page mobile view content*](docs/screenshot/)
-    * [*Contact page desktop view content*](docs/screenshot/)       
-   
+    * [*Contact page desktop view content*](docs/screenshot/)   
+  
+* [**During Development Testing**](#during-development-testing)
+    * [*Manual Testing*](#manual-testing)
+    * [*Bugs and Fixes*](#bugs-and-fixes)
+* [**Post Development Testing**](#post-development-testing)
+  * [**Validators**](#validators)
+      * [*HTML*](#html---httpsvalidatorw3orgnu)
+      * [*CSS*](#css---httpsjigsaww3orgcss-validator)
+  * [**Lighthouse Scores**](#lighthouse-scores)
+      * [*Desktop Version:*](#desktop-version)
+      * [*Mobile Version*](#mobile-version)
+      * [*Lighthouse Score Feedback From Third Party Testers*](#lighthouse-score-feedback-from-third-party-testers)
+  * [**Accessability**](#accessability)
+    
 1. [**Future-Enhancements**](#future-enhancements)
 1. [**Testing Phase**](#testing-phase)
 1. [**Deployment**](#deployment)
@@ -222,7 +235,113 @@ The form requires that all inputs are fulfilled in order to send and uses placeh
 * I would also make the contact form fully functional with a post request. 
 ***
 ## **Testing Phase**
-I have included details of testing both during development and post development in a separate document called [TESTING.md](TESTING.md).
+
+## **During Development Testing**
+1. Manual testing was carried out during the development process through the use of Chromes developer tools to ensure that the pages were responsive and correctly scaling on each screen size. This was done through using the Live Server v5.7.9 extension in VSCode. 
+
+1. Through using W3C Markup Validation to validate HTML and W3C CSS validation to validate CSS regularly through the projects development helped ensure that there were no coding errors as I progressed through the build. 
+
+### ***Manual Testing:***
+* :
+
+  1. Chrome
+  2. safari  
+  3. Internet explorer 
+  4. Edge
+
+* Chrome devtools allowed me to view the responsiveness on a range of different devices, I made use of all them and made adjustments where needed through the use of media queries. The biggest issue I found here was on tablet views, in response I created a media query specifically targeting tablet devices to resolve this. 
+
+I then used the devtools to simulate different screen sizes/devices from 320 px up to 4000px in width. 
+
+* The project was also shared in the class slack channel asking if fellow students might review the site and report any issues. There were no issues reported. 
+* Additionally, I also tested the site on friends mobiles and found no issues or bugs.
+
+
+
+### ***Bugs and Fixes:***
+
+Below is a list of problems(rather than bugs) encountered along the way. More vigrorous testing on screen sizes ranging 300px to 1400px revealed the following problems. 
+
+1. * ***Issue Found:*** 
+        * On large desktop screens over 1200px the image menu on the history page appeared out of alignment and the images seemed not to fill their containers. 
+    * ***Solution Used:*** 
+        * Targeted media query at screen sizes of min-width 1280 that increases the image size to a width and height of 400px.
+1. * ***Issue Found:*** 
+        * Navbar was collapsing on mobile screens but the 'hamburger' icon was not showing. However, hovering over the area did bring up the drop down nav links. 
+    * ***Solution Used:***    
+        * resolved by adding the navbar-dark theme to the navbar class. 
+1. * ***Issue Found:*** 
+        * In the index.html page it emerged that on mobile devices there was an element causing horizontal scroll. 
+    * ***Solution Used***:
+        * I had incorrectly used the no gutters class in my parent container. I hadnt realised that this was not required in Bootstrap5. Removing the class resolved the issue. 
+    * ***Issue Found:*** 
+        * The 'Visit Plas Penmynydd' text box that sits atop the hero image stretched beyond the hero image at tablet screen sizes. 
+    * ***Solution Used:*** 
+        * Media query for tablet screen sizes and another specifically for the ipad air (this showed as particularly problematic on dev tools) used to move the container, change the width, add padding and amend text size. 
+1.  * ***Issue Found:*** 
+        * Contact page appeared out of proportion and unbalanced on mobile devices.
+    * ***Solution Used:***
+        * Targeted media query to move headings from the left to center and to adjust the size and the position of the contact.
+1. * ***Issue Found:***
+        * 
+    * ***Solution Used:***
+       
+    
+## **Post Development Testing**
+### **Validators**
+
+#### ***HTML*** - https://validator.w3.org/nu/
+
+* ***Issue Found:***
+    * In history.html the validator was giving error messages for the image menu links, informing that no closing </a> could be found. 
+* ***Solution Used:***
+    * After a little trial and error I realised that I had wrongly wrapped the entire div container with the anchor link. Using them solely around the overlay text remedied this issue. 
+
+#### ***CSS*** - https://jigsaw.w3.org/css-validator/
+
+* All pages tested, no issues found via URL or file upload.\
+![CSS validator badge](https://jigsaw.w3.org/css-validator/images/vcss)
+
+### **Lighthouse Scores**
+### **Test conditions**
+* 
+* I ran the tests for both mobile and desktop. 
+
+#### ***Desktop Version:***
+
+
+![Desktop Lighthouse Score](docs/screenshots/lighthouse-desktop.png) 
+
+**There were several actions required to get to this score:**
+
+1. 
+
+1. 
+
+#### ***Mobile Version:***
+
+* 
+![Desktop Lighthouse Score](docs/screenshots/lighthouse-mobile.png)
+
+1. ***index.html:***
+
+    ![Mobile Lighthouse Score for index.html](docs/screenshots/) 
+
+    * Originally, the performance score on the page was around 
+
+2. ***history:***
+
+    ![Mobile Lighthouse Score for teachings.html](docs/screenshots/)
+
+3. ***contact.html:***
+
+    ![Mobile Lighthouse Score for community.html](docs/screenshots/) 
+
+  
+### **Accessability**
+In addition to the accessability score on light house I also used [WAVE - Web accessability evaluation tool](https://wave.webaim.org/) to check my pages for accessability and no errors were returned.
+***   
+[return to README.md](README.md)
 ***
 ## **Deployment**
 I deployed the page on GitHub pages via the following procedure: -
