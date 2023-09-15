@@ -451,8 +451,9 @@ input[type="text"], input[type="email"] {
   #welcome {
     background-color: rgba(113, 106, 104, 0.4);
     position:absolute;
-    top:28%;
+    top:25%;
     left:10%;
+    width: 400px;
     
   }
   #welcome h2 {
