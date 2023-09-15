@@ -310,7 +310,7 @@ Below is a list of problems(rather than bugs) encountered along the way. More vi
 #### ***Desktop Version:***
 
 
-![Desktop Lighthouse Score](docs/screenshots/lighthouse-desktop.png) 
+![Desktop Lighthouse Score](Docs/screenshots/lighthouse-mobile.png) 
 
 **There were several actions required to get to this score:**
 
@@ -321,7 +321,7 @@ Below is a list of problems(rather than bugs) encountered along the way. More vi
 #### ***Mobile Version:***
 
 * 
-![Desktop Lighthouse Score](docs/screenshots/lighthouse-mobile.png)
+![Desktop Lighthouse Score](Docs/screenshots/lighthouse-desktop.png)
 
 1. ***index.html:***
 
