@@ -12,7 +12,7 @@ Plas Penmynydd is a private home in rural Anglesey, North Wales. it has the most
     * [***Target Audiences***](#target-audiences)
     * [***User Stories***](#user-stories)
     * [***Site Aims***](#site-aims)
-    * [***How Is This Will Be Achieved:***](#how-is-this-will-be-achieved)
+    * [***How this Will Be Achieved:***](#how-is-this-will-be-achieved)
     * [***Wireframes***](#wireframes)
     * [***Color Scheme***](#color-scheme)
 1. [**Current Features Common to all pages**](#current-features-common-to-all-pages)
@@ -21,27 +21,29 @@ Plas Penmynydd is a private home in rural Anglesey, North Wales. it has the most
         * [*Logos*](#logos)
         * [*Navigation Bar*](#navigation-bar)
     * [**Hero Images:**](#hero-images)
-      * [***About Page***:](#about-page)
+      * [***Homepage***:](#homepage)
           * [*Hero-Image*](#hero-image)
-          * [*Quote*](#quote)
-      * [***Teachings page***:](#teachings-page)
-          * [*Hero-Image*](#hero-image-1)
-          * [*Quote*](#quote-1)
-      * [***Community page:***](#community-page)
-          * [*Hero-Image*](#hero-image-2)
-          * [*Quote*](#quote-2)
-      * [***Contact and Form-Feedback pages:***](#contact-and-form-feedback-pages)
-          * [*Hero-Image*](#hero-image-3)
-          * [*Quote*](#quote-3)
-    * [**Anchor Tags Within all Pages Main Content**](#anchor-tags-within-all-pages-main-content)
-    * [**Footer**](#footer)
-    * [**Typography**](#typography)
+          * [*Homepage hero image text box*](docs/screenshots/)
+          * [*Homepage visitor info DESKTOP VIEW*](docs/screenshots/)
+         * [*Homepage visitor info MOBILE VIEW*](docs/screenshots/)
+      * [***History page***:](#history-page)
+          * [*History link images*](docs/screenshots/)
+          * [*History: The life of Owain Tudor*](docs/screenshots/)
+          * [*History: The Tudors in North Wales*](docs/screenshots/)
+          * [***Contact page:***](#community-page)
+          * [*Contact page*](docs/screenshots/)
+          * [*Contact page form*](docs/screenshots/)
+      * [**Footer**](#footer)
+      * [**Typography**](#typography)
 1. [**Individual Page Content features**](#individual-page-content-features)
-    * [**About Page Content**](#about-page-content)
-    * [**Teachings Page Content**](#teachings-page-content)
-    * [**Community Page Content**](#community-page-content)
+    * [**Homepage Content**](#homepage-content)
+    * [*Home page blurb*](docs/screenshots/)
+    * [**History Page Content**](#history-page-content)
+    * [*Zoomed out image of the history page content section*](docs/screenshots/)
     * [**Contact Page Content**](#contact-page-content)
-    * [**Form Feedback Page Content**](#form-feedback-page-content)
+    * [*Contact page mobile view content*](docs/screenshot/)
+    * [*Contact page desktop view content*](docs/screenshot/)       
+   
 1. [**Future-Enhancements**](#future-enhancements)
 1. [**Testing Phase**](#testing-phase)
 1. [**Deployment**](#deployment)
@@ -81,7 +83,7 @@ Plas Penmynydd is a private home in rural Anglesey, North Wales. it has the most
 
 * The site will have a contact page, allowing the user to easily get in touch, should they need too. 
 
-* Through utilises simple design the site aims to be easily accessible by all. This is something that has been in the forefront of my mind as the demographic of those who visit the house tends to be on the older side. 
+* Through utilising simple design the site aims to be easily accessible by all. This is something that has been in the forefront of my mind as the demographic of those who visit the house tends to be on the older side. 
 
 ### **Wireframes:**
 In order to achieve a website that looked as proffesional as possible it was important to carefully consider the design of the pages. To that end the first stage of this project involved creating wireframes for both both mobile and desktop devices. 
@@ -123,157 +125,100 @@ I choose not to use a header and instead opted for a simple nav bar at the top o
 * The chosen logo is the tudor shield, it is easily recognisable as such and feels apt given the tudor lineage linked to the house. It adds visual appeal and draws the eye to the website brand name: Plas Penmynydd. 
 
 
-    * One logo on mobile devices ensured the title stays as big as possible on a smaller screen, improving the user experience.
+    * Whilst the nav-links collapse on mobile device I have decided to keep the logo alongside of Plas Penmynydd owing to the fact that it looked better with, than without. 
 
         ![Mobile header](docs/screenshots/mobile-header.jpg)
 
-    * Two logos on larger screens gave better symmetry to the header while filling the excess white space provided by broader screen sizes.
+    * Desktop logo adjusts in size depending on screen size as it utilises bootstrap 5 responsiveness. 
 
         ![Desktop header](docs/screenshots/desktop-header.jpg)
 
 #### *Navigation Bar:*
-* The navigation bar appears on all five pages (including the form feedback page). 
-* It contains links to the about, teachings, community, and contact page to allow easy navigation around the website. 
-* The below image shows the user's current page highlighted in blue with a white border. 
-* Hover over feature, which turns the menu option the same as the active page when users hover their cursor over the navbar heading.
-![Navigation bar](docs/screenshots/nav-bar.jpg)
+* The navigation bar appears on all three pages at the top of the page where it is fixed with the bootstrap class .sticky-top. There were other options that could have been explore for example having Plas Penmynydd in a header above the nav bar, however, I really wanted to keep the site simple and straightforward. In addition, I wanted the user's focus to be drawn to the hero image. 
+* The navigation bar contains links to the homepage (through the plas penmynydd navbrand), History and contact us pages.Its sticky position has the effect that the user can easily navigate between the pages at anytime. 
+* To ease user navigation there is an active class that shows the user which page they are currently on - the below image shows the active home page which appears white, whilst the other pages appear pink. This is subtle, but hopefully not to subtle. 
+* When the navlinks are hovered over the text of the navlink turns a contrasting green color and is underlined.
+![Navigation bar](docs/screenshots/)
+
 ***
-### **Hero Images**
-* I have included a hero image on each page to make the site uniform across all pages. 
-* Each image has a zoom animation to grab the attention of the user. 
-* Each image has an overlaid quote designed to give the user a brief insight into the teachings of the NKT.
-
-### **About Page**:
+### **Homepage**:
 #### *Hero-Image:*
-The hero image depicts Geshe Kelsang Gyatso, who was the founder of the New Kadampa Tradition. He is smiling and waving as if welcoming the user to the page. Behind him is the NKT's primary temple, which holds great significance. The temple pictured hosts two of the NKT's international festivals and is within the grounds of Manjushri Meditation center, considered the hub of the NKT's global operations.
-![About page hero image](docs/screenshots/about-hero-img.jpg)
-#### *Quote:*
-The quote included on the about page is "We need modern ideas, but we also need ancient wisdom." which perfectly sums up the page's subject matter that begins with what the NKT is.
+The hero image shows a side view of Plas Penmynydd with a lion statue in the foreground. Its an interesting image that I hope serves to grab the users attention. The hero image is large and intended to be the first thing the user sees. However, given its size I was encouraged by my mentor to provide a text box that directed the user to look down the page and find the visitor information. 
+![Homepage hero image](docs/screenshots/)
+#### *Visit Plas Penmynydd text box*
+Essentially this exists to directed the users focus down the page and onto the visiting information section. However, it became a good way of selling the Plas and drawing attention to what makes it so historically interesting - namely its link with the Tudor dynasty. Through using a font awesome downward icon I have embedded an anchor link that if clicked takes you to the visiting information section of the homepage. On a mobile device this text box disapears as its not needed given the scaling down of the hero image. 
+![Homepage hero image text box](docs/screenshots/)
 
-### **Teachings page**:
-#### *Hero-Image:*
-This image is Geshe Kelsang Gyatso sat on what is commonly called a throne at one of the traditions international festivals. The throne is where a teacher sits to expound the oral lineage passed from teacher to disciple, and so it was appropriate for a page discussing the core beliefs of the philosophy in his own words.
-![Teaching page hero image](docs/screenshots/teachings-hero-img.jpg)
-#### *Quote:*
-The quote included on the teachings page is "Happiness and suffering are states of mind and so their main causes are not to be found outside the mind." which compliments the subject matter of the page's content.
+####*Visitor information section*
+This is organised into three columns: Opening hours, Ticket prices and directions. Again, the focus was on being as simple as possible. Fontawesome icons serve to draw focus and add interest. In the directions column there is an iframe containing googlemap directions for the Plas. Using bootstrap made the organisation of these columns straightforward. particularly when it came to making them responsive. On mobile devices the three columns are reduced to one so as the content of each heading takes up the entire screen width.
+![Homepage visitor info DESKTOP VIEW](docs/screenshots/)
+![Homepage visitor info MOBILE VIEW ](docs/screenshots/)
 
-### **Community page:**
-#### *Hero-Image:*
-This image is taken from behind Geshe Kelsang Gyatso, teaching at a festival. The intention is to show the extent of the international community attending one of these events.
-![Community page hero image](docs/screenshots/community-hero-img.jpg)
-#### *Quote:*
-The quote on the community page is, "Buddha is the doctor who gives us this medicine, and the Sangha are the nurses who assist us." Sangha is defined in the page's content and shows the importance and function of the community within the NKT.
 
-### **Contact and Form-Feedback pages:**
-I kept these two hero images and quotes the same to simulate still being on the same page after submitting the form.
+####*Explore Plas Penmynydd section*
+This is the final section of the homepage. This comprises of a gallery of photos of the Plas with short descriptions underneathe. To make the captions more visible against the photos I have used some css customisations - by using a black background with an opacity of 0.1 I have given the white text a bit more contrast which has aided the readability of the text. 
+![Homepage explore Plas Penmynydd gallery](docs/screenshots/)
 
-#### *Hero-Image:*
-The artwork pictures three of the common deities used within the New Kadampa Tradition. I used this to be eye-catching even when viewed from smaller devices.
-![Contact and Form-feedback pages hero image](docs/screenshots/contact-hero-img.jpg)
-#### *Quote:*
-The quote used for these two pages is, "If everyone sincerely practices the path of compassion and wisdom, all their problems will be solved. I guarantee this.". I chose this quote to encourage people to reach out to their local community or learn more about the tradition and their teachings.
+### **History page**:
+#### *Image links*
+This history page is very heavy on text information with six seperate headings. These sections have been arranged so as they can be navigated to through the use of this image menu. Using a text overlay upon hovering over the image keeps the image simple and uncluttered. Users are good at recognising images as navigational links and the use of the text overlay serves to highlight that these are links to the different headings within the page. The six sections are: 1. The life of Owain Tudor 2. Tudors in North Wales 3. Penmynydd Church 4. The history of Plas Penmynydd 5. Plas Penmynydd restoration process 6. Historic features of the house. I will focus on the first two in this readme file. 
+![History link images](docs/screenshots/)
+#### *The life of Owain Tudor:*
+To structure these sections uniformaly bootstrap containers have been used. Text and images appears on tablets and desktop devices as occupying 8 columns. Whilst quoteboxes with interesting facts occupies the final 4. On mobile screens this is all collapsed down to one column that takes up the entire screen width. This is then repeated through all six sections of history. The only departure from this is in the Historical features of the house section, here a carousel is used in place of an image as there are several images showing various shields and inscriptions. 
+![History: The life of Owain Tudor](docs/screenshots/)
+![History: The Tudors in North Wales](docs/screenshots/)
 
-## **Anchor Tags Within all Pages Main Content**
-* All anchor tags in the page's main content were left with the underline decoration to make it clear to the user that I had embedded a hyperlink.  
-* I  changed the color to black to match the surrounding text, meaning the anchor tag did not look out of place or lower the contrast score.
-* Have a hover-over effect that turns the Hyperlink a darker color from the gold gradient used throughout the page.
-* Have the cursor set to a pointer.  A Pointer is a browser default setting; however, I noted it did not default for buttons. I added the cursor: pointer rule to the styles.css for the form submit button, and I decide to create a separate rule for a:hover just in case the browser provider ever changed the browser default.
+
+
+### **Contact us page :**
+#### *Background-Image:*
+This image is taken in the study of Plas Penmynydd and features the library bookcases. The intention was to provide a backdrop that was visually stimulating but did not distract too much from the contact form which floats transparently over the image. 
+![Contact page](docs/screenshots/)
+#### *Contact page:form*
+The form requires that all inputs are fulfilled in order to send and uses placeholders to direct the user. It was coded using bootstrap 5 and customised so as to visually appealing against the background image. The submit button is styled using the green that is used throughout the project. The headings too use the same white and off white to give a cohesive feel to the webpages. 
+![Contact page form](docs/screenshots/)
 
 ## **Footer**
-* The footer includes direct links to all the NKT's social media accounts with an invitation to connect to the NKT directly via these channels.
-
-* These icons were imported from font awesome using Javascript at the bottom of the page. I was advised that linking the CDN in the header would load faster; however, the lighthouse tools in devtools showed a different story as the performance score became negatively affected by the CDN link.
-
-* I included a disclaimer that the site is intended solely for educational purposes and that all images and videos remain the property of NKT-IKBU. I added this after seeking advice from the Code Institute on slack. To make an accurate tribute to the tradition, I needed to use the appropriate images. Most of the pictures found on the usual image source websites were of entirely different Buddhist schools and were irrelevant to my theme.
-
-![Page footer](docs/screenshots/footer.jpg)
+* The footer is simple and unfussy. It features Jasper Tudor (son of Owain Tudor) coat of arms which is set against a green background that has a transition gradient with a lighter green to soften the large block of color. Without social media links the footer has become more of a stylistic element that one with a practical use. however, it does serve to give a balance to the pages. 
+![Page footer](docs/screenshots/)
 
 ## **Typography**
-* Throughout the page, there are three fonts used:
-  * Oswald - For the title to give it a strong presence.
-  * DM sans - For all other headings including the navbar. 
-  * Open sans - for all content text.
-
-* DM and Open sans were both selected to complement each other and because they have a soft appearance which I thought best suited to a site on Buddhism.
-* All fonts were sourced from Google fonts, as stated in the credits.
+* In this project just one font-family was used:
+  *  EB Garamond with a fallback font of serif
+* This font was chosen as it has the elegant appearance that was appropiate for a historic house website. 
+* This font was sourced from Google fonts, as stated in the credits. Whilst I did import another font, Roboto, this font did not compliment the project in the way I hoped. 
 
 ## **Individual Page Content features**
-### **About Page Content:**
+### **Homepage Content:**
 
-* This page gives a brief historical summary of the New Kadampa tradition, a quick overview of how the NKT came to be.
-* The embedded youtube video is of one of the traditions senior teachers giving a summary of what modern Buddhism is to the tradition and why it is so applicable to people of the contemporary world. 
-* At the end of the content, there is an anchor tag wrapped around a clickable image so the user can download a free copy of one of Geshe Kelsang Gyatso's books called "Modern Buddhism" in electronic format.
+* The content of this page fulfils the first two aims of this website. 1. it provides clear information as to how and when to visit Plas Penmynydd with directions provided via address and googlemap link. 2. The 'Explore Plas Penmynydd' image carousel gives a strong impression of what the house looks like - which is important because not everyone will be able to visit who has an interest in its history. The homepage with its short blurb beneath the hero image also clearly lays out the historical significance of the house and leads to a better user understanding - eg. this is what the house looks like, this is why its historically unique and this is how you can visit. It clearly leads the user in a way that is informative and concise
+![Home page blurb](docs/screenshots/)
 
-![Contact and Form-feedback pages hero image](docs/screenshots/about-page-content.png)
+### **History Page Content:**
+* Includes six sections, each section has a unique anchor that allows the user to pick and choose which section to read from the image menu. To meet the aim of educating the user about the unique history of the house it was necessary to provide a comprehesive history section. Owain Tudor is not a well known figure amongst the Tudors and so its necessary to give the user more information about his life in a way that is engaging and adds to a users appreciation of Plas Penmynydd. To this end paragraphs are kept as short as possible. Text is broken up through the use of images and figcaptions that provide a little visual stimulation and pertain to the subject being discussed. 
+* The six sections each cover an element that adds to and brings life into the history of house.
+* all images are taken by myself with the exception of the image in the 'Life of Owain Tudor' - this image comes from adobe stock images and is properly licensed for use. 
+* Images are wrapped in a figure element and given a figcaption to detail who the image portrays.
+* blockquotes are used to contain interesting facts for each section and these are given a subtle background color to help them stand out from the page. These too are wrapped in a figure element.
 
-### **Teachings Page Content:**
-* Includes an excerpt from the downloadable ebook "Transform Your Life" by Geshe Kelsang Gyatso. 
-* Covers the core beliefs behind what Buddhism teaches. 
-* I  included images to break up the monotony of the long passage.  
-  * The images symbolize the traditions linage and are the decorations used in Geshe Kelsang Gyatso's books between pages. 
-  * Images are wrapped in a figure element and given a figcaption to detail who the image portrays. *Note: It was outside the scope of the project's MVP to detail the full linage of the NKT. See [Future-Enhancements](#future-enhancements) for further information on how the lineage will be included at a later stage of development if it is required*
-* The last image towards the bottom of the page is wrapped in an anchor tag. The image contains text inviting the user to download a full copy of the book if the user wishes to read further. 
-* Link provided for further free excerpts from Geshe Kelsang Gyatso's books via an external site.  
-* Link provided to Tharpa publications run by the NKT where the users can purchase the full range of Geshe Kelsang Gyatso books and materials, including Buddhist prays, and artwork approved by the tradition. 
+![Zoomed out image of the history page content section](docs/screenshots/)
 
-![Zoomed out image of the teachings page content section](docs/screenshots/teachings-page-content.png)
+### **Contact Us Page Content:**
 
-### **Community Page Content:**
+* Offers a way for the user to contact me as the site author should they have any questions. This fulfils the final site aim. 
+* With minimal features and complexity to add to usebility and a better user experience, this page consists of a h2 and h4 heading elements with a simple bootstrap form beneath and to the center of the page. This form has just three inputs - name, email and message. Followed by a send button. This has then been customised through css to give it a consistency in terms of color and font style with the rest of the website.
+* On mobile view this form content takes up much more of the  viewing screen and this is to optimise user experience, as it makes the form far more readable and easier to use. 
+![Contact page mobile view content](docs/screenshot/)
+![Contact page desktop view content](docs/screenshot/) 
 
-* Begins by explaining the terminology used in the hero image quote. This explanation then introduces the NKT's international community and their goal to achieve the accessibility of Buddha's teachings to people worldwide.
-* This section includes an image of the NKT's first-ever temple.
-
-![Community page top section](docs/screenshots/community-initial-content.jpg)
-
-* The user is presented with two methods to connect directly with the international community and further their experience of Modern Buddhism.
-
-![Community page articles split on larger screen sizes](docs/screenshots/community-split-articles.jpg)
-
-* Smaller screen sizes show the section "Ways To Connect In-Person" as a single column with the articles stacked one above the other and no background to ensure a better user experience.
-
-![Community page articles split on smaller screen sizes](docs/screenshots/community-smaller-screens.jpg)
-
-### **Contact Page Content**
-
-* Reiterates ways to reach out to the New Kadampa Tradition in the user's local area and refers them to the ways to connect section on the community page.
-* The user is offered a way to contact me as the site author should they wish to discuss the subject matter further. This section includes a short biography about me and my experience in the NKT.
-* Form used has three required fields. 
-    * The first two are name and email, so I know who has sent the communication and where to respond appropriately. 
-    * The third required field is the two radio buttons linked via the attribute value name="mailing_list". The user must select one of these options to click submit and cannot choose both.
-* An optional text area is between these required fields so the user can choose to send me a message.  
-* The submit button has a shimmer effect as feedback when the user hovers the pointer over it. 
-
-*Note: This form doesn't gather any data; it was created with a GET request to call a feedback page. The submit button then triggers the GET request to load the form feedback page outlined later in the readme. This feature is to simulate a real functional form only.*
-
-![Contact page content](docs/screenshots/contact-page-content.jpg)
-
-### **Form Feedback Page Content**
-* I created this page to mimic the effect of actually submitting a form. 
-* I centered the text alignment on this page only. I set the text-alignment property to "justify" on smaller screen widths and to "left" on larger screens for all other pages. I made this decision because of the lack of text on the form feedback page. Matching the alignment to the other pages looked out of place.
-* Since filling in the form suggests the user is interested in learning more, I have included a longer feature video about the tradition here. *Note: Originally, I had wanted to use this on the home page, but due to the length of the video, I deemed it too long for an introduction. There is no auto play on the videos, so the user can choose whether they want to engage with the video or not.*
-* Link included within the content to take the user back to the initial contact page, in case they wanted to look at the ways to contact a local meditation center, send an additional message, or sign up to the mailing list.
-
-![Form feedback content](docs/screenshots/form-feedback-content.jpg)
 
 ## **Future-Enhancements**
 
-* The future intention of the site would be to serve as a website specifically for Malta, where there is no community until now. However, Due to the summer break, which the tradition undergoes every year, I could not reach the traditions director with my request for permission. I decided to build a tribute site to showcase to the head office and adapt the content to be more Malta specific later on. 
+* The future intention of the site would be to incorporate a 3d house tour. The demographic who are most interested in the house are older people who arent always mobile enough to visit historic homes. This would be a great way to make the house and its fascinating history more accesible. Additionally, this is a private home and so public openings are limited to one day a week during the summer months - so again, this provides another avenue to provide a more virtual experience of the house. Its a massive hurdle for charities like the National Trust wheelchair accesible and this is also a case for private homes, with a grade I listed building making such alterations just is not possible. Providing this virtual tour serves to include a demographic who I suspect would not be able to visit the house in person. 
 
-* At first, the purpose would remain to educate and raise awareness meaning the current content would still be applicable; however, There would be additional content I could add as interest grew. Such things would be: -
+* It has been the house owners lifetimes work to restore the house. He has so much knowledge about the intricate history of the house that he would like to share. Future enhancements will be history sections added to and rewritten to incorporate his immense knowledge and really to preserve his legacy as well as the house.
 
-    * Times/dates/venues for Meetups in Malta to build a community
-    * Times/dates/venues for Book clubs to study and discuss the materials and methods to apply them to daily life.
-    * More information on the lineage of the tradition to include short biographies.
-
-* Eventually, when Malta was designated a teacher by the head office, these would then convert into: -
-
-    * Times/dates/venues/fees for Formal classes
-    * Times/dates/venues/fees for Public talks/events
-    * Include a bio for Malta's officially designated teacher at the end of the traditions lineage page or add a new page summarizing their experience.
-
-* Once I better understand Javascript, I would like to add a burger menu for mobile-sized device screens. I found articles on achieving this with CSS and HTML alone; however, I did not deem this necessary to create the minimum viable product, which is this project.
-
-* I would also make the contact form fully function with a post request and have a database to collate data for the mailing list.
+* I would also make the contact form fully functional with a post request. 
 ***
 ## **Testing Phase**
 I have included details of testing both during development and post development in a separate document called [TESTING.md](TESTING.md).
@@ -281,71 +226,24 @@ I have included details of testing both during development and post development 
 ## **Deployment**
 I deployed the page on GitHub pages via the following procedure: -
 
-1. From the project's [repository](https://github.com/dnlbowers/modern-buddhism), go to the **Settings** tab.
+1. From the project's [repository](https://github.com/amegeddon/plaspenmynydd), go to the **Settings** tab.
 2. From the left-hand menu, select the **Pages** tab.
 3. Under the **Source** section, select the **Main** branch from the drop-down menu and click **Save**.
 4. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
 
-You  can find the live site via the following URL - [Modern Buddhism live webpage](https://dnlbowers.github.io/modern-buddhism/index.html)
+You  can find the live site via the following URL - [Plas Penmynydd live webpage](https://github.com/amegeddon/plaspenmynydd)
 ***
 ## **Credits**
-### **Honorable mentions**
-This project could not have happened without the support of the following people listed in no particular order:
+* The code used to provide transition effect on the Homepage Carousel was found through the slack community channel, where someone had previously struggled with the same issue I was having. I was able to take some of the code provided there and incorporate it into my project. 
+* The overlay effect on the history page images elluded me for the longest time, I am so grateful to the code institute tutor who broke down what it was I was tryign to achieve and provided a clear way forward. 
+### **Acknowledgements**
+I would like to thank my fellow students of code institutes June Wales intake, a lovely group of people who are just lovely and keep the momentum going even when things look a bit daunting. and special mention to:
 
-* [Mark Cutajar](https://github.com/markcutajar) - He who possesses screens so clear the mouth waters at the mere sight of them. Also, a code guru who let me share his office during the initial development stage while I was visiting him in Scotland. This man is part of the reason I entered the world of programming.
 * [Richard Wells](https://github.com/D0nni387) - Code Institute Mentor who has gone above and beyond what was expected of him to help me get this far in the course.
-* [Matt Bodden](https://github.com/MattBCoding) - 24/7 tester, advisor, muse and support. I truly cannot thank him enough, Matt you're a living legend!.  
-* [Monica Hrda](https://github.com/monika-hrda) - Style adviser and tester (go study!).
-* [Anthony O'Brien](https://github.com/D0nni387) - Tester, advisor, motivator and my introduction to CSS flex and connecting VSCode to Github.
-* [Simen Daehlin](https://github.com/Eventyret) - For the longest and most comprehensive peer review that I received via slack. His feedback was truly amazing and although parts of it confused me, it pushed me to become a better developer.  
-* The code institute Slack community as a whole who tested and supported throughout.
-
-* And the biggest thanks goes to my wife and child who have had to deal with me face to face through it all. Oliver has been my reason for change and Analise my inspiration. 
 
 
-### **General reference:**
-* The project was influenced by the Code Institutes code along project called Love running. Whilst I have tried to deviate as much as possible there may be some similarities in the code.
-* I relied upon W3schools, MDN web docs and stack overflow for general references throughout the project.
-
-### **Content:**
-* All content was written by myself except for the below excerpt on teachings.html
-* The excerpt from Transform your life on teachings.html - [kadampa.org](https://kadampa.org/reference/buddhist-beliefs)
-* Icons in the footer were taken from [Font Awesome](https://fontawesome.com)
-* The golden gradient colour scheme - [brandgradients.com](http://www.brandgradients.com/gold-gradient).
-* All fonts imported from - [Google Fonts](https://fonts.google.com/)
-* Hero image quotes taken from a range of sources - [About (index) Page Quote](https://www.azquotes.com/quote/864975), [Teachings Page Quote](https://www.goodreads.com/author/quotes/13768667.Kelsang_Gyatso#:~:text=%E2%80%9CHappiness%20and%20suffering%20are%20states,be%20found%20outside%20the%20mind.%E2%80%9D&text=Therefore%2C%20if%20we%20want%20to,we%20must%20transform%20our%20mind.%E2%80%9D), [Community Page Quote](https://kadampa.org/buddhism/refuge), [Contact Page/Form-Feedback Page Quote](https://books.google.at/books?id=rLq0icrylRAC&pg=PA4&lpg=PA4&dq=%22If+Everyone+Sincerely+Practices+The+Path+Of+Compassion+And+Wisdom,+All+Their+Problems+Will+Be+Solved.+I+Guarantee+This&source=bl&ots=cnWI9WrXmy&sig=ACfU3U00afgbFxI8NXS6LrvBonG8Vlh1CQ&hl=en&sa=X&ved=2ahUKEwjF1vv939zyAhUi_7sIHTPjAQEQ6AF6BAgCEAM#v=onepage&q=%22If%20Everyone%20Sincerely%20Practices%20The%20Path%20Of%20Compassion%20And%20Wisdom%2C%20All%20Their%20Problems%20Will%20Be%20Solved.%20I%20Guarantee%20This&f=false)
-* Accessibility checker - [WAVE - Web accessibility evaluation tool](https://wave.webaim.org/)
-  
 ### **Media:**
-* New Kadampa Traditions logos - [meditateinvictoria.org](https://meditateinvictoria.org/wp-content/uploads/2019/02/NKT-Logo-white-transparent-300x300.png)
-
-* Videos on index.html and form-feedback.html- [NKT's official YouTube channel](https://www.youtube.com/nktikbu)
-
-* ebook Modern Buddhism download image - [meditateinbrisbane.org](https://meditateinbrisbane.org/classes/kenmore_class/)
-
-* The Buddha images used to break up the excerpt from Transform your life on teachings.html - [pngwing.com](https://www.pngwing.com/en/search?q=New+KAdampa)
-
-* ebook "How to Transform your life" download image - [kadampa.org](https://kadampa.org/buddhism/kadampa-buddhist-scriptures)
-
-* Image within in figure with the ID "temple-img" on community.html - [swdharmacelebration.org](https://swdharmacelebration.org/wp-content/uploads/2020/08/Manjushri.jpg)
-
-* Image within in figure with the ID "int-fest-fig" on community.html- [meditationincheshire.org](https://meditationincheshire.org/kadampa-buddhism/)
-
-* Image within in figure with the ID "work-hol-fig" on community.html - [meditateinleicester.org](https://meditateinleicester.org/volunteer/)
-
-* Hero image on index.html - [kadampafestivalus.org](https://www.kadampafestivalus.org/geshe-kelsang-gyatso/geshe-la-at-kmc-new-york/)
-
-* Hero image teachings.html - [meditateinperth.org](https://www.meditateinperth.org/about-buddhism)
-
-* Hero image community.html - [wiseattention.org](https://www.wiseattention.org/blog/2012/02/21/nkt-succession-and-the-rules)
-
-* Hero image contact.html/form-feedback.html - [meditateinleicester.org](https://meditateinleicester.org/buddhism-3/)
 
 * Images requiring compression were done using - [tiny.png](https://tinypng.com) 
 
-* Screenshot under README.md section titled "site overview" was created view [Am I responsive](http://ami.responsivedesign.is)
-
-* Color grid contract tool - [Eightshapes](https://contrast-grid.eightshapes.com/) 
-
-* Calculator used to resize figure images on teachings page -[Aspect Ratio Calculator](https://andrew.hedges.name/experiments/aspect_ratio/)
 

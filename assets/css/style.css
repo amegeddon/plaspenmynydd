@@ -354,18 +354,18 @@ input[type="text"], input[type="email"] {
 
 
 #contactpage h4 {
-  font-weight: 600;
+  font-weight: 500;
   font-family:'EB Garamond', serif; 
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
   font-size: 2em;
   color: #ebe1cd;
   font-style: bold;
 }
 
 #contactpage h2 {
-  font-weight: 700;
+  font-weight: 600;
   font-family:'EB Garamond', serif; 
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
   font-style: bold;
 }
 
@@ -427,6 +427,9 @@ input[type="text"], input[type="email"] {
   }
   #welcome p {
     font-size: 1.5rem ;
+  }
+  form {
+    margin-top: 30%;
   }
 }
 
