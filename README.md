@@ -178,6 +178,7 @@ This image is taken in the study of Plas Penmynydd and features the library book
 The form requires that all inputs are fulfilled in order to send and uses placeholders to direct the user. It was coded using bootstrap 5 and customised so as to visually appealing against the background image. The submit button is styled using the green that is used throughout the project. The headings too use the same white and off white to give a cohesive feel to the webpages. 
 ![Contact page form](docs/screenshots/)
 
+
 ## **Footer**
 * The footer is simple and unfussy. It features Jasper Tudor (son of Owain Tudor) coat of arms which is set against a green background that has a transition gradient with a lighter green to soften the large block of color. Without social media links the footer has become more of a stylistic element that one with a practical use. however, it does serve to give a balance to the pages. 
 ![Page footer](docs/screenshots/)
