@@ -156,13 +156,13 @@ I choose not to use a header and instead opted for a simple nav bar at the top o
 ***
 ### **Homepage**:
 #### *Hero-Image:*
-The hero image shows a side view of Plas Penmynydd with a lion statue in the foreground. Its an interesting image that I hope serves to grab the users attention. The hero image is large and intended to be the first thing the user sees. However, given its size I was encouraged by my mentor to provide a text box that directed the user to look down the page and find the visitor information. 
+The hero image shows a side view of Plas Penmynydd with a lion statue in the foreground. Its an interesting image that I hope serves to grab the users attention. The hero image is large and intended to be the first thing the user sees. Later on in the project I made the design decision to provide a text box that directed the user to look down the page and find the visitor information. 
 ![Homepage hero image](docs/screenshots/)
 #### *Visit Plas Penmynydd text box*
 Essentially this exists to directed the users focus down the page and onto the visiting information section. However, it became a good way of selling the Plas and drawing attention to what makes it so historically interesting - namely its link with the Tudor dynasty. Through using a font awesome downward icon I have embedded an anchor link that if clicked takes you to the visiting information section of the homepage. On a mobile device this text box disapears as its not needed given the scaling down of the hero image. 
 ![Homepage hero image text box](docs/screenshots/)
 
-####*Visitor information section*
+#### *Visitor information seciton*
 This is organised into three columns: Opening hours, Ticket prices and directions. Again, the focus was on being as simple as possible. Fontawesome icons serve to draw focus and add interest. In the directions column there is an iframe containing googlemap directions for the Plas. Using bootstrap made the organisation of these columns straightforward. particularly when it came to making them responsive. On mobile devices the three columns are reduced to one so as the content of each heading takes up the entire screen width.
 ![Homepage visitor info DESKTOP VIEW](docs/screenshots/)
 ![Homepage visitor info MOBILE VIEW ](docs/screenshots/)
@@ -260,7 +260,7 @@ I then used the devtools to simulate different screen sizes/devices from 320 px 
 
 ### ***Bugs and Fixes:***
 
-Below is a list of problems(rather than bugs) encountered along the way. More vigrorous testing on screen sizes ranging 300px to 1400px revealed the following problems. 
+Below is a list of problems encountered along the way. More vigrorous testing on screen sizes ranging 300px to 1400px revealed the following problems. 
 
 1. * ***Issue Found:*** 
         * On large desktop screens over 1200px the image menu on the history page appeared out of alignment and the images seemed not to fill their containers. 
@@ -274,7 +274,7 @@ Below is a list of problems(rather than bugs) encountered along the way. More vi
         * In the index.html page it emerged that on mobile devices there was an element causing horizontal scroll. 
     * ***Solution Used***:
         * I had incorrectly used the no gutters class in my parent container. I hadnt realised that this was not required in Bootstrap5. Removing the class resolved the issue. 
-    * ***Issue Found:*** 
+1.    * ***Issue Found:*** 
         * The 'Visit Plas Penmynydd' text box that sits atop the hero image stretched beyond the hero image at tablet screen sizes. 
     * ***Solution Used:*** 
         * Media query for tablet screen sizes and another specifically for the ipad air (this showed as particularly problematic on dev tools) used to move the container, change the width, add padding and amend text size. 
@@ -283,8 +283,9 @@ Below is a list of problems(rather than bugs) encountered along the way. More vi
     * ***Solution Used:***
         * Targeted media query to move headings from the left to center and to adjust the size and the position of the contact.
 1. * ***Issue Found:***
-        * 
+        * Making the navbar stick to the top of the page using bootstrap sticky-top class meant that when using links to go further down the page, content was being covered up. 
     * ***Solution Used:***
+        * This was counterd by using scroll-margin-top: 4.5 em - this accounted for the width that the nav bar was taking up. 
        
     
 ## **Post Development Testing**

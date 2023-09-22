@@ -410,6 +410,8 @@ input[type="text"], input[type="email"] {
 /* ....... mobile-end .......*/
 
 
+
+
 /* ....... tablet .......*/
 @media only screen and (min-width: 767px) {
   #welcome {
@@ -444,10 +446,10 @@ input[type="text"], input[type="email"] {
 /*........ ipad air .........*/
 @media only screen and (min-width: 820px) {
   form {
-    margin-top: 18%;
+    margin-top: 5%;
   } 
   #contact h2 {
-    padding-top:200px !important;
+    padding-top:100px;
   }
 }
 
@@ -468,7 +470,7 @@ input[type="text"], input[type="email"] {
     font-size: 1.5rem ;
   }
   form {
-    margin-top: 13%;
+    margin-top: 5%;
   } 
   #contact h2 {
     padding-top:100px !important;
