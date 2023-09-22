@@ -1,3 +1,8 @@
+* {
+  scroll-margin-top: 4.5rem;
+}
+
+
 /* ....... general .......*/
 body {
   background-color: #fdfcfa;
