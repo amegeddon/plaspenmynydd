@@ -286,6 +286,14 @@ Below is a list of problems encountered along the way. More vigrorous testing on
         * Making the navbar stick to the top of the page using bootstrap sticky-top class meant that when using links to go further down the page, content was being covered up. 
     * ***Solution Used:***
         * This was counterd by using scroll-margin-top: 4.5 em - this accounted for the width that the nav bar was taking up. 
+1. * ***Issue Found:***
+        * Horizontal scroll discovered on history.html 
+    * ***Solution Used:***
+        * H3 headings in the image-menu were too large, reducing the size of these headings remedied the problem.
+1. * ***Issue Found:***
+        * Overlay used on image-menu in history.html appeared larger than the image it was covering on large and extra large screen sizes. 
+    * ***Solution Used:***
+        * Overlay sized to the same size as the images it was overlaying.  
        
     
 ## **Post Development Testing**
