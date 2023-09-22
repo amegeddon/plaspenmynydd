@@ -406,6 +406,9 @@ input[type="text"], input[type="email"] {
   form {
     margin-top: 14%;
   }
+  .history-menu h3 {
+    font-size: 1.5em;
+  }
   }
 /* ....... mobile-end .......*/
 
