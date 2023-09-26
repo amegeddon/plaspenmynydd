@@ -233,7 +233,9 @@ The form requires that all inputs are fulfilled in order to send and uses placeh
 * It has been the house owners lifetimes work to restore the house. He has so much knowledge about the intricate history of the house that he would like to share. Future enhancements will be history sections added to and rewritten to incorporate his immense knowledge and really to preserve his legacy as well as the house.
 
 * I would also make the contact form fully functional with a post request. 
-***
+
+* Something that I have been a little unhappy with is the sizing of photos on mobile screen. I made the mistake of sizing all my images in a 16:9 ratio. This looks great on desktop but not so great on mobile. Using aspect-ratio in css I attempted to change the aspect ratio on images with a mobile media query. This worked to an extent but as the original image was in a 16:9 format it was stretching the image and it just did not look right. So what I will do is to try the reverse, have images that are 4:3 and then apply an aspect-ratio media query for larger screens. I need to further look into this and find out what is the most adaptable image size to work with. Next time I think more planning is needed here. Perhaps using a width of 2500 px and using height to crop to the correct aspect ratio would be a solution here. 
+
 ## **Testing Phase**
 
 ## **During Development Testing**
@@ -293,7 +295,11 @@ Below is a list of problems encountered along the way. More vigrorous testing on
 1. * ***Issue Found:***
         * Overlay used on image-menu in history.html appeared larger than the image it was covering on large and extra large screen sizes. 
     * ***Solution Used:***
-        * Overlay sized to the same size as the images it was overlaying.  
+        * Overlay sized to the same size as the images it was overlaying. 
+1. * ***Issue Found:***
+        * Images on mobile device appeared quite small and since the images go hand in hand with the text, I thought it quite important that they felt significant. The problem was that I edited all images to a 16:9 ratio before importing them into the project. This looks great on larger screens but isnt the best choice for mobile screens. 
+    * ***Solution Used:***
+        * Using aspect-ratio in css to change images to 4:3 on mobile devices proved unsuccessful. The average mobile screen size is 390px, so to achieve an aspect ratio of 4:3, a height of 292.5px is required. This was by no means the perfect solution as there is a little distoration in the images but I feel it is an improvement and the images now play a more significant role when the website is viewed on mobile devices.          
        
     
 ## **Post Development Testing**

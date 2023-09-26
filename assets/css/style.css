@@ -409,11 +409,30 @@ input[type="text"], input[type="email"] {
   .history-menu h3 {
     font-size: 1.5em;
   }
+  .carousel-item img {
+    height: 292.5px;
+  }
+  .history img{
+    height: 292.5px;
+  }
   }
 /* ....... mobile-end .......*/
 
-
-
+@media only screen and (min-width: 481px) and (max-width: 766px) {
+  #welcome {
+    position:absolute;
+    top:25%;
+    left:15%;
+    width: 200px;
+    height:auto;
+}
+#welcome h2 {
+  font-size: 1.25rem;
+}
+#welcome p {
+  font-size: 14px ;
+}
+}
 
 /* ....... tablet .......*/
 @media only screen and (min-width: 767px) {
@@ -421,7 +440,7 @@ input[type="text"], input[type="email"] {
     background-color: rgba(113, 106, 104, 0.4);
     position:absolute;
     top:25%;
-    left:5%;
+    left:10%;
     width: 300px;
     height:auto;
     
