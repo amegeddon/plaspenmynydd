@@ -306,8 +306,17 @@ form {
   color: #e5dfd2;
 }
 
-input[placeholder] {
-  color:#ebe1cd !important;;
+form label {
+  color:#f3ecdd !important;;
+}
+
+::placeholder {
+  color: #a8445e !important;
+  opacity: 1; /* Firefox */
+}
+
+.text-muted {
+  color: #874c62 !important;
 }
 
 input[type="text"], input[type="email"] {
