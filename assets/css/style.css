@@ -2,12 +2,10 @@
   scroll-margin-top: 4.5rem;
 }
 
-
 /* ....... general .......*/
 body {
   background-color: #fdfcfa;
 }
-
 
 h2 {
   font-weight: 600;
@@ -25,10 +23,6 @@ h3 {
 
 .primarytextcolor {
   color: #e5dfd2 ;
-}
-
-.secondarytextcolor {
-  color:#000;
 }
 
 .greytextcolor {
@@ -69,23 +63,18 @@ hr {
   font-size: 16px;
   letter-spacing: 1.5px;
   font-family: 'EB Garamond', serif; 
-  
 }
 
 #shield-logo {
   width: 45px;
   height: 46px; 
-
 }
-
-
 
 .nav-link {
   color: #e5dfd2;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-family: 'EB Garamond', serif; 
-  
 }
 
 .navbar-brand {
@@ -100,12 +89,10 @@ hr {
   color:#8EBE94;
 }
 
-
 .nav-link:hover {
   border-bottom: 1px solid #8EBE94;
   color:#8EBE94 !important;
 }
-
 
 #banner {
   padding-left: 0;
@@ -127,7 +114,6 @@ hr {
 }
 
 #welcome h2 {
-  color:#e5dfd2;
   font-weight: 600;
   font-size: 5rem;
 }
@@ -146,7 +132,6 @@ hr {
   width:80%;
 }
 
-
 /* ....... hero-image-text .......*/
 #blurb {
   font-size: 18px;
@@ -157,11 +142,8 @@ hr {
   font-family: 'EB Garamond', serif; 
   color: #444444;
 }
-/* ....... hero-image-text-end .......*/
-
 
 /* ....... explore-section .......*/
-
 #explore {
   color:#666666;
   font-family: 'EB Garamond', serif; 
@@ -173,14 +155,12 @@ hr {
   transition-duration: 2s;
 }
 
-
 /* ....... changes the speed of transition effect .......*/
 .carousel-item {
   transition: transform 2.5s ease-in-out;
 }
 
 /* ....... changes the speed of transition fade .......*/
-
 .carousel-fade .active.carousel-item-start,
 .carousel-fade .active.carousel-item-end {
   transition: opacity 0s 2.5s;
@@ -188,14 +168,12 @@ hr {
 
 .caption-bg-dark {
 background-color:rgba(5, 5, 24, 0.1); 
-  
 }
 
 .carousel-caption h5 {
   font-family: 'EB Garamond', serif; 
   font-weight: 700;
   color: #e5dfd2;
-
 }
 
 .carousel-caption p {
@@ -208,8 +186,6 @@ iframe {
   width:100%;
   height: auto;
 }
-/* ....... explore-section-end .......*/
-
 
 footer {
 background-color: rgba(31,86,31,0.65);
@@ -228,11 +204,8 @@ footer img {
   height: 200px;
   width: 300px;
 }
-/* ....... explore-section-end .......*/
-
 
 /* ....... history of house.......*/
-
 
         /*.... overlay with text for image links ...*/
 .parent {
@@ -249,7 +222,6 @@ footer img {
     display: flex;
     opacity: 0;
     transition: .4s;
-   
   }
 
   .overlay h3 {
@@ -265,8 +237,6 @@ footer img {
   .overlay:hover {
     opacity: 1;
   }
-
-         /*.... overlay with text for image links-end ...*/
 
 .history p {
   color: #666666;
@@ -318,11 +288,7 @@ figure img {
   padding: 2em
 }
 
-/* ....... history of house end.......*/
-
-
 /* ....... contact page .......*/
-
 #contact {
   background-image: url('../images/study_bg1.jpg');
   background-size: cover;
@@ -338,7 +304,6 @@ form {
 .form-control {
   background: rgba(1, 1, 1, 0.3);
   color: #e5dfd2;
-  
 }
 
 input[placeholder] {
@@ -347,16 +312,12 @@ input[placeholder] {
 
 input[type="text"], input[type="email"] {
   color:#000!important;
-
 }
-
-
 
 #contact button {
   background-color: #1f561f!important;
   border: 2px solid #526f52;
 }
-
 
 #contactpage h4 {
   font-weight: 500;
@@ -377,11 +338,8 @@ input[type="text"], input[type="email"] {
 #contactpage img {
   opacity:0.1;
 }
-/* ....... contact page end .......*/
-
 
 /* ....... media queries .......*/
-
 
 /* ....... mobile .......*/
 @media only screen and (max-width: 480px) {
@@ -419,7 +377,7 @@ input[type="text"], input[type="email"] {
     height: 292.5px;
   }
   }
-/* ....... mobile-end .......*/
+
 
 @media only screen and (min-width: 481px) and (max-width: 766px) {
   #welcome {
@@ -465,9 +423,6 @@ input[type="text"], input[type="email"] {
   }
 }
 
-/* ....... tablet end .......*/
-
-
 /*........ ipad air .........*/
 @media only screen and (min-width: 820px) {
   form {
@@ -478,7 +433,7 @@ input[type="text"], input[type="email"] {
   }
 }
 
-
+/*........ desktop .........*/
 @media only screen and (min-width: 1024px) {
   #welcome {
     background-color: rgba(113, 106, 104, 0.4);
@@ -507,10 +462,9 @@ input[type="text"], input[type="email"] {
   .history-menu h3 {
     font-size: 2.5rem;
   }
-  
+  }
 
-}
-
+  /*........ larger screens .........*/
 @media only screen and (min-width: 1280px) {
   #welcome {
     background-color: rgba(113, 106, 104, 0.4);
@@ -518,7 +472,6 @@ input[type="text"], input[type="email"] {
     top:28%;
     left:10%;
     width:500px;
-    
   }
   #welcome h2 {
     font-size: 3rem;
@@ -532,18 +485,15 @@ input[type="text"], input[type="email"] {
   #contact h2 {
     padding-top:100px !important;
   }
-
   .history-menu img {
     width:400px;
     height:400px;
   }
-
   .history-menu h3 {
     font-size: 3rem;
   }
-  
   .overlay {
     width: 400px;
     height: 400px; 
   }
-
+}
