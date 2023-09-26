@@ -415,6 +415,9 @@ input[type="text"], input[type="email"] {
   .history img{
     height: 292.5px;
   }
+  iframe {
+    height: 292.5px;
+  }
   }
 /* ....... mobile-end .......*/
 
