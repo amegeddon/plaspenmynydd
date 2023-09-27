@@ -1,9 +1,9 @@
 # **Plas Penmynydd**
 ## **Site Overview**
 
+You can find the live site via the following URL - [Plas Penmynydd live webpage](https://github.com/amegeddon/plaspenmynydd)
+
 Plas Penmynydd is a private home in rural Anglesey, North Wales. it has the most incredible history that its current owner has spent a lifetime restoring and sharing with others. Plas Penmynydd is the ancestral home of the Tudor family and birthplace of Owain Tudor, Grandfather of Henry VII. This website primarily provides a formal platform that lets people know that the house is open to the public during specific periods of the year. This was the main remit of this website, to provide an attractive, proffesional looking site that provided information regarding how to find the house and when to visit. Many people have visited the house over the years through open days advertised locally and through one off chance visits but the owner would like to reach a wider audience. Another aspect that was important was education - regarding the significant history of the house. This is explored in the history page and will no doubt be an ongoing project.
-
-
 
 ![Am I responsive screenshot](docs/screenshots/am-i-responsive.jpg)
 ## Table of contents:
@@ -296,12 +296,7 @@ Below is a list of problems encountered along the way. More vigrorous testing on
         * Overlay used on image-menu in history.html appeared larger than the image it was covering on large and extra large screen sizes. 
     * ***Solution Used:***
         * Overlay sized to the same size as the images it was overlaying. 
-1. * ***Issue Found:***
-        * Images on mobile device appeared quite small and since the images go hand in hand with the text, I thought it quite important that they felt significant. The problem was that I edited all images to a 16:9 ratio before importing them into the project. This looks great on larger screens but isnt the best choice for mobile screens. 
-    * ***Solution Used:***
-        * Using aspect-ratio in css to change images to 4:3 on mobile devices proved unsuccessful. The average mobile screen size is 390px, so to achieve an aspect ratio of 4:3, a height of 292.5px is required. This was by no means the perfect solution as there is a little distoration in the images but I feel it is an improvement and the images now play a more significant role when the website is viewed on mobile devices.          
-       
-    
+        
 ## **Post Development Testing**
 ### **Validators**
 
@@ -354,8 +349,7 @@ Below is a list of problems encountered along the way. More vigrorous testing on
 
   
 ### **Accessability**
-In addition to the accessability score on light house I also used [WAVE - Web accessability evaluation tool](https://wave.webaim.org/) to check my pages for accessability and no errors were returned.
-***   
+
 [return to README.md](README.md)
 ***
 ## **Deployment**
@@ -366,7 +360,7 @@ I deployed the page on GitHub pages via the following procedure: -
 3. Under the **Source** section, select the **Main** branch from the drop-down menu and click **Save**.
 4. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
 
-You  can find the live site via the following URL - [Plas Penmynydd live webpage](https://github.com/amegeddon/plaspenmynydd)
+You can find the live site via the following URL - [Plas Penmynydd live webpage](https://github.com/amegeddon/plaspenmynydd)
 ***
 ## **Credits**
 * The code used to provide transition effect on the Homepage Carousel was found through the slack community channel, where someone had previously struggled with the same issue I was having. I was able to take some of the code provided there and incorporate it into my project. 

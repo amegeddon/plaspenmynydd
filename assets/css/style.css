@@ -271,6 +271,15 @@ figure img {
   background-color:rgba(82,111,82,0.9)
 }
 
+#restoration-scroll {
+  background-color:rgba(82,111,82,0.9);
+  color:rgba(255, 255, 255, 1);
+  font-family:'EB Garamond', serif; 
+  font-weight: 500;
+  margin-top: 0;
+  padding-top:0;
+}
+
 .figure-image figcaption {
   color:rgba(255, 255, 255, 1);
   font-family:'EB Garamond', serif; 
@@ -313,6 +322,10 @@ form label {
 ::placeholder {
   color: #a8445e !important;
   opacity: 1; /* Firefox */
+}
+
+::-ms-input-placeholder { /* Edge 12 -18 */
+  color: #a8445e !important;
 }
 
 .text-muted {
@@ -375,12 +388,6 @@ input[type="text"], input[type="email"] {
   }
   .history-menu h3 {
     font-size: 1.5em;
-  }
-  .carousel-item img {
-    height: 292.5px;
-  }
-  .history img{
-    height: 292.5px;
   }
   iframe {
     height: 292.5px;
