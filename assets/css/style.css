@@ -391,6 +391,7 @@ input[type="text"], input[type="email"] {
   }
   .history-menu h3 {
     font-size: 1.5em;
+    padding:10px;
   }
   iframe {
     height: 292.5px;
