@@ -1,4 +1,5 @@
 # **Plas Penmynydd**
+   (pronounced Plas Pen-MUN-idh)
 ## **Site Overview**
 
 You can find the live site via the following URL - [Plas Penmynydd live webpage](https://github.com/amegeddon/plaspenmynydd)
@@ -30,10 +31,11 @@ Plas Penmynydd is a private home in rural Anglesey, North Wales. it has the most
           * [*History link images*](docs/screenshots/)
           * [*History: The life of Owain Tudor*](docs/screenshots/)
           * [*History: The Tudors in North Wales*](docs/screenshots/)
-          * [***Contact page:***](#community-page)
+          * [***Contact page:***](#contact-page)
           * [*Contact page*](docs/screenshots/)
           * [*Contact page form*](docs/screenshots/)
-      * [**Footer**](#footer)
+          * [***Thankyou page:***](#thankyou-page)
+          * [**Footer**](#footer)
       * [**Typography**](#typography)
 1. [**Individual Page Content features**](#individual-page-content-features)
     * [**Homepage Content**](#homepage-content)
@@ -102,17 +104,15 @@ Plas Penmynydd is a private home in rural Anglesey, North Wales. it has the most
 In order to achieve a website that looked as proffesional as possible it was important to carefully consider the design of the pages. To that end the first stage of this project involved creating wireframes for both both mobile and desktop devices. 
 
 * Mobile Wireframes:
-    * [Homepage (About)](docs/wireframes/homepage-mobile.png)
-    * [Teachings page](docs/wireframes/teaching-mobile.png)
-    * [Community page](docs/wireframes/community-mobile.png)
-    * [Contact page](docs/wireframes/contact-mobile.png)
+    * [Homepage](docs/wireframes/homepage-mobile.png)
+    * [Hisotry page](docs/wireframes/teaching-mobile.png)
+    * [Contact page](docs/wireframes/community-mobile.png)
 
 * Desktop wireframes:
-    * [Homepage (About)](Docs/wireframes/homepage-desktop.png)
-    * [Teachings page](docs/wireframes/teachings-desktop.png)
-    * [Community page](docs/wireframes/community-desktop.png)
-    * [Contact page](docs/wireframes/contact-desktop.png)
-
+    * [Homepage](Docs/wireframes/homepage-desktop.png)
+    * [History page](docs/wireframes/teachings-desktop.png)
+    * [Contact page](docs/wireframes/community-desktop.png)
+   
 There was some deviation from the original wireframes:
 
 * The inclusion of a text box 'Visit Plas Penmynydd: the birthplace of a Royal Dynasty' along with a down icon linking to visiting information. This was suggested by my mentor, Richard Wells, who was concerned the user might feel lost in the hero image. The addition of this text box serves to improve the users experience of navigating the page.
@@ -189,6 +189,10 @@ This image is taken in the study of Plas Penmynydd and features the library book
 ![Contact page](docs/screenshots/)
 #### *Contact page:form*
 The form requires that all inputs are fulfilled in order to send and uses placeholders to direct the user. It was coded using bootstrap 5 and customised so as to visually appealing against the background image. The submit button is styled using the green that is used throughout the project. The headings too use the same white and off white to give a cohesive feel to the webpages. 
+![Contact page form](docs/screenshots/)
+
+### **Thankyou page:**
+This page is stylized in the same way as the contact page and has the simple message of 'Thankyou, we will be in touch shortly'. When the contact form is submitted the user is sent to this page. 
 ![Contact page form](docs/screenshots/)
 
 
