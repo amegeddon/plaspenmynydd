@@ -371,6 +371,10 @@ input[type="text"], input[type="email"] {
     padding-top: 16px;
     padding-bottom: 16px;
     }
+
+  .navbar-brand {
+  font-size: 1.25rem;
+  }
   #contact h2,h4 {
     text-align: center ;
   }
