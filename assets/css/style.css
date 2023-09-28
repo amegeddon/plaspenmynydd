@@ -367,6 +367,9 @@ input[type="text"], input[type="email"] {
 @media only screen and (max-width: 480px) {
   .tickets {
     background-color:rgba(142,190,148,0.5);
+    color:#222222;
+    padding-top: 16px;
+    padding-bottom: 16px;
     }
   #contact h2,h4 {
     text-align: center ;
