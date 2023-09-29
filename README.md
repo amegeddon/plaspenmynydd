@@ -122,8 +122,8 @@ There was some deviation from the original wireframes:
 
 ### **Color Scheme:**
 From the beginning I was keen to give the website an elegant look and have opted for simplicity. I began with a body background color of a very light shade of off-white, as I found this more subtle than antique white. I then experimented with red and green, settling on shades that I felt contrasted well with one another and which felt warm and inviting. Ive utilised subtle color transitions on the nav bar and footer by using linear gradients. This was in aid of softening the page and reducing the starkness of large blocks of solid color. 
-  [Color Palette-red](Docs/screenshots/color1.PNG) 
- [Color Palette - alternative red](Docs/screenshots/color2.PNG) 
+ * [Color Palette-red](Docs/screenshots/color1.PNG) 
+ * [Color Palette - alternative red](Docs/screenshots/color2.PNG) 
  * [Color Palette -contrasting green](Docs/screenshots/color3.PNG) 
  * [Color Palette - alternative contrasting green](Docs/screenshots/color4.PNG) 
  * [Color Palette - offwhite background color of pages](Docs/screenshots/colorbg.PNG) 
@@ -150,11 +150,11 @@ I choose not to use a header and instead opted for a simple nav bar at the top o
 
     * Whilst the nav-links collapse on mobile device I have decided to keep the logo alongside of Plas Penmynydd owing to the fact that it looked better with, than without. 
 
-        ![Mobile header](docs/screenshots/mobile-header.jpg)
+        ![Mobile header](Docs/screenshots/mobile-header.PNG)
 
     * Desktop logo adjusts in size depending on screen size as it utilises bootstrap 5 responsiveness. 
 
-        ![Desktop header](docs/screenshots/desktop-header.jpg)
+        ![Desktop header](Docs/screenshots/desktop-header.PNG)
 
 #### *Navigation Bar:*
 * The navigation bar appears on all three pages at the top of the page where it is fixed with the bootstrap class .sticky-top. There were other options that could have been explore for example having Plas Penmynydd in a header above the nav bar, however, I really wanted to keep the site simple and straightforward. In addition, I wanted the user's focus to be drawn to the hero image. 
@@ -167,15 +167,15 @@ I choose not to use a header and instead opted for a simple nav bar at the top o
 ### **Homepage**:
 #### *Hero-Image:*
 The hero image shows a side view of Plas Penmynydd with a lion statue in the foreground. Its an interesting image that I hope serves to grab the users attention. The hero image is large and intended to be the first thing the user sees. Later on in the project I made the design decision to provide a text box that directed the user to look down the page and find the visitor information. 
-![Homepage hero image](docs/screenshots/)
+![Homepage hero image](Docs/screenshots/hero-image.PNG)
 #### *Visit Plas Penmynydd text box*
 Essentially this exists to directed the users focus down the page and onto the visiting information section. However, it became a good way of selling the Plas and drawing attention to what makes it so historically interesting - namely its link with the Tudor dynasty. Through using a font awesome downward icon I have embedded an anchor link that if clicked takes you to the visiting information section of the homepage. On a mobile device this text box disapears as its not needed given the scaling down of the hero image. 
-![Homepage hero image text box](docs/screenshots/)
+![Homepage hero image text box](Docs/screenshots/welcome-image)
 
 #### *Visitor information seciton*
 This is organised into three columns: Opening hours, Ticket prices and directions. Again, the focus was on being as simple as possible. Fontawesome icons serve to draw focus and add interest. In the directions column there is an iframe containing googlemap directions for the Plas. Using bootstrap made the organisation of these columns straightforward. particularly when it came to making them responsive. On mobile devices the three columns are reduced to one so as the content of each heading takes up the entire screen width.
-![Homepage visitor info DESKTOP VIEW](docs/screenshots/)
-![Homepage visitor info MOBILE VIEW ](docs/screenshots/)
+![Homepage visitor info DESKTOP VIEW](Docs/screenshots/info-section-desktop.PNG)
+![Homepage visitor info MOBILE VIEW ](Docs/screenshots/info-section-mobile.PNG)
 
 
 ####*Explore Plas Penmynydd section*
