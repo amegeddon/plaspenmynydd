@@ -128,7 +128,9 @@ From the beginning I was keen to give the website an elegant look and have opted
  * [Color Palette - alternative contrasting green](Docs/screenshots/Docs/screenshots/color4.png) 
  * [Color Palette - offwhite background color of pages](Docs/screenshots/Docs/screenshots/colorbg.png) 
  * [Color Palette - white text color ](Docs/screenshots/Docs/screenshots/colortext1.png) 
-  * [Color Palette- alternative white text color](Docs/screenshots/Docs/screenshots/colortext2.png) 
+ * [Color Palette- alternative white text color](Docs/screenshots/Docs/screenshots/colortext2.png) 
+ * [Color Palette - grey text color](Docs/screenshots/Docs/screenshots/color1.png) 
+ * [Color Palette- alternative white text color](Docs/screenshots/Docs/screenshots/colortext2.png) 
 
 
 ## **Current Features Common to all pages**
