@@ -121,7 +121,15 @@ There was some deviation from the original wireframes:
 
 
 ### **Color Scheme:**
-From the beginning I was keen to give the website an elegant look and have opted for simplicity. I began with a body background color of a very light shade of off-white, as I found this more subtle than antique white. I then experimented with red and green, settling on shades that I felt contrasted well with one another and which felt warm and inviting. Ive utilised subtle color transitions on the nav bar and footer by using linear gradients. This was in aid of softening the page and reducing the starkness of large blocks of solid color.  
+From the beginning I was keen to give the website an elegant look and have opted for simplicity. I began with a body background color of a very light shade of off-white, as I found this more subtle than antique white. I then experimented with red and green, settling on shades that I felt contrasted well with one another and which felt warm and inviting. Ive utilised subtle color transitions on the nav bar and footer by using linear gradients. This was in aid of softening the page and reducing the starkness of large blocks of solid color. 
+ * [Color Palette-red](Docs/screenshots/Docs/screenshots/color1.png) 
+ * [Color Palette - alternative red](Docs/screenshots/Docs/screenshots/color2.png) 
+ * [Color Palette -contrasting green](Docs/screenshots/Docs/screenshots/color3.png) 
+ * [Color Palette - alternative contrasting green](Docs/screenshots/Docs/screenshots/color4.png) 
+ * [Color Palette - offwhite background color of pages](Docs/screenshots/Docs/screenshots/colorbg.png) 
+ * [Color Palette - white text color ](Docs/screenshots/Docs/screenshots/colortext1.png) 
+  * [Color Palette- alternative white text color](Docs/screenshots/Docs/screenshots/colortext2.png) 
+
 
 ## **Current Features Common to all pages**
 ###  **Header Element**
