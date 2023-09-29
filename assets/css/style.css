@@ -404,6 +404,9 @@ input[type="text"], input[type="email"] {
   #contact h4 {
     font-size: 1.5rem;
   }
+  iframe {
+    height:180px;
+  }
 }
 
 
@@ -442,12 +445,12 @@ input[type="text"], input[type="email"] {
     padding:10px;
   }
   iframe {
-    height: 292.5px;
+    height: 225px;
   }
   }
 
 
-@media only screen and (min-width: 481px) and (max-width: 766px) {
+@media only screen and (min-width: 481px) and (max-width: 767px) {
   #welcome {
     position:absolute;
     top:25%;
@@ -474,18 +477,26 @@ form {
 #contact h2 {
   padding-top:65px !important;
 }
+.tickets {
+  background-color:rgba(142,190,148,0.5);
+  color:#222222;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  }
+  iframe {
+    height:180px;
+  }
 }
 
 /* ....... tablet .......*/
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 768px) {
   #welcome {
     background-color: rgba(113, 106, 104, 0.4);
     position:absolute;
     top:25%;
     left:10%;
     width: 300px;
-    height:auto;
-    
+    height:auto; 
   }
   #welcome h2 {
     font-size: 1.5rem;
@@ -502,6 +513,9 @@ form {
   #contact h2 {
     padding-top:75px !important;
   }
+  iframe {
+    margin-top: 20px;
+  }
 }
 
 /*........ ipad air .........*/
@@ -511,6 +525,10 @@ form {
   } 
   #contact h2 {
     padding-top:100px;
+  }
+  iframe {
+    height:240px;
+    margin-top: 25px; 
   }
 }
 
@@ -522,7 +540,9 @@ form {
     top:25%;
     left:10%;
     width: 400px;
-    
+  }
+  iframe {
+    height: 180px;
   }
   #welcome h2 {
     font-size: 3rem;
