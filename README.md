@@ -138,7 +138,7 @@ From the beginning I was keen to give the website an elegant look and have opted
 I choose not to use a header and instead opted for a simple nav bar at the top of the page. 
 
 #### *Title:*
-![Page title](docs/screenshots/title.jpg)
+![Page title](Docs/screenshots/title.png)
 
 * The title of the page is Plas Penmynydd, this being the House name. Plas translates from welsh to House and Penmynydd translates to hill, so essentially house on the hill. 
 * The title also serves as a navigation link to the homepage as we have come to expect as internet users. 
@@ -170,7 +170,7 @@ The hero image shows a side view of Plas Penmynydd with a lion statue in the for
 ![Homepage hero image](Docs/screenshots/hero-image.PNG)
 #### *Visit Plas Penmynydd text box*
 Essentially this exists to directed the users focus down the page and onto the visiting information section. However, it became a good way of selling the Plas and drawing attention to what makes it so historically interesting - namely its link with the Tudor dynasty. Through using a font awesome downward icon I have embedded an anchor link that if clicked takes you to the visiting information section of the homepage. On a mobile device this text box disapears as its not needed given the scaling down of the hero image. 
-![Homepage hero image text box](Docs/screenshots/welcome-image.PNG)
+![Homepage hero image text box](Docs/screenshots/welcome-text.PNG)
 
 #### *Visitor information seciton*
 This is organised into three columns: Opening hours, Ticket prices and directions. Again, the focus was on being as simple as possible. Fontawesome icons serve to draw focus and add interest. In the directions column there is an iframe containing googlemap directions for the Plas. Using bootstrap made the organisation of these columns straightforward. particularly when it came to making them responsive. On mobile devices the three columns are reduced to one so as the content of each heading takes up the entire screen width.
@@ -178,37 +178,42 @@ This is organised into three columns: Opening hours, Ticket prices and direction
 ![Homepage visitor info MOBILE VIEW ](Docs/screenshots/info-section-mobile.PNG)
 
 
-####*Explore Plas Penmynydd section*
+#### *Explore Plas Penmynydd section*
 This is the final section of the homepage. This comprises of a gallery of photos of the Plas with short descriptions underneathe. To make the captions more visible against the photos I have used some css customisations - by using a black background with an opacity of 0.1 I have given the white text a bit more contrast which has aided the readability of the text. 
-![Homepage explore Plas Penmynydd gallery](docs/screenshots/)
+![Homepage explore Plas Penmynydd gallery DESKTOP VIEW](docs/screenshots/explore-desktop.PNG)
+![Homepage explore Plas Penmynydd gallery MOBILE VIEW](docs/screenshots/explore-mobile.PNG)
 
 ### **History page**:
 #### *Image links*
-This history page is very heavy on text information with six seperate headings. These sections have been arranged so as they can be navigated to through the use of this image menu. Using a text overlay upon hovering over the image keeps the image simple and uncluttered. Users are good at recognising images as navigational links and the use of the text overlay serves to highlight that these are links to the different headings within the page. The six sections are: 1. The life of Owain Tudor 2. Tudors in North Wales 3. Penmynydd Church 4. The history of Plas Penmynydd 5. Plas Penmynydd restoration process 6. Historic features of the house. I will focus on the first two in this readme file. 
-![History link images](docs/screenshots/)
+This history page is very heavy on text information with six seperate headings. These sections have been arranged so as they can be navigated to through the use of this image menu. Using a text overlay upon hovering over the image keeps the image simple and uncluttered. Users are good at recognising images as navigational links and the use of the text overlay serves to highlight that these are links to the different headings within the page. The six sections are: 1. The life of Owain Tudor 2. Tudors in North Wales 3. Penmynydd Church 4. The history of Plas Penmynydd 5. Plas Penmynydd restoration process 6. Historic features of the house. I will focus on the first two in this readme file. Viewed on a mobile device this image menu collapses a little to two image links per row, rather than the three that we see on the desktop. 
+![History link images DESKTOP VIEW](Docs/screenshots/image-menu-mobile.PNG)
+![History link images MOBILE VIEW](Docs/screenshots/image-menu-desktop.PNG)
 #### *The life of Owain Tudor:*
-To structure these sections uniformaly bootstrap containers have been used. Text and images appears on tablets and desktop devices as occupying 8 columns. Whilst quoteboxes with interesting facts occupies the final 4. On mobile screens this is all collapsed down to one column that takes up the entire screen width. This is then repeated through all six sections of history. The only departure from this is in the Historical features of the house section, here a carousel is used in place of an image as there are several images showing various shields and inscriptions. 
-![History: The life of Owain Tudor](docs/screenshots/)
-![History: The Tudors in North Wales](docs/screenshots/)
-
+To structure these sections uniformaly bootstrap containers have been used. Text and images appears on tablets and desktop devices as occupying 8 columns. Whilst quoteboxes with interesting facts occupies the final 4. On mobile and small screen sizes this is all collapsed down to one column that takes up the entire screen width. This is then repeated through all six sections of history. The only departure from this is in the Historical features of the house and Restoration of the house sections, here carousels are used in place of an image as there are several images showing various shields and inscriptions. 
+![History: Section feature DESKTOP VIEW](Docs/screenshots/history-sectionfeature-desktop.PNG)
+![History: section feature MOBILE VIEW](Docs/screenshots/history-sectionfeature-mobile.PNG)
 
 
 ### **Contact us page :**
 #### *Background-Image:*
 This image is taken in the study of Plas Penmynydd and features the library bookcases. The intention was to provide a backdrop that was visually stimulating but did not distract too much from the contact form which floats transparently over the image. 
-![Contact page](docs/screenshots/)
+![Contact page DESKTOP VIEW](Docs/screenshots/contactus-desktop.PNG)
+![Contact page MOBILE VIEW](Docs/screenshots/contactus-mobile.PNG)
 #### *Contact page:form*
 The form requires that all inputs are fulfilled in order to send and uses placeholders to direct the user. It was coded using bootstrap 5 and customised so as to visually appealing against the background image. The submit button is styled using the green that is used throughout the project. The headings too use the same white and off white to give a cohesive feel to the webpages. 
-![Contact page form](docs/screenshots/)
+![Contact page form DESKTOP VIEW](Docs/screenshots/contactform-DESKTOP.PNG)
+![Contact page form MOBILE VIEW](Docs/screenshots/contactform-mobile.PNG)
 
 ### **Thankyou page:**
 This page is stylized in the same way as the contact page and has the simple message of 'Thankyou, we will be in touch shortly'. When the contact form is submitted the user is sent to this page. 
-![Contact page form](docs/screenshots/)
+![Contact page form DESKTOP VIEW](Docs/screenshots/thankyou-desktop.PNG)
+![Contact page form MOBILE VIEW](Docs/screenshots/thankyou-mobile.PNG)
 
 
 ## **Footer**
-* The footer is simple and unfussy. It features Jasper Tudor (son of Owain Tudor) coat of arms which is set against a green background that has a transition gradient with a lighter green to soften the large block of color. Without social media links the footer has become more of a stylistic element that one with a practical use. however, it does serve to give a balance to the pages. 
-![Page footer](docs/screenshots/)
+* The footer is simple and unfussy. It features Jasper Tudor's (son of Owain Tudor) coat of arms which is set against a green background that has a transition gradient with a lighter green to soften the large block of color. Without social media links the footer has become more of a stylistic element that one with a practical use. however, it does serve to give a balance to the pages. 
+![Page footer DESKTOP VIEW](Docs/screenshots/footer-desktop.PNG)
+![Page footer MOBILE VIEW](Docs/screenshots/footer-mobile.PNG)
 
 ## **Typography**
 * In this project just one font-family was used:
@@ -220,7 +225,7 @@ This page is stylized in the same way as the contact page and has the simple mes
 ### **Homepage Content:**
 
 * The content of this page fulfils the first two aims of this website. 1. it provides clear information as to how and when to visit Plas Penmynydd with directions provided via address and googlemap link. 2. The 'Explore Plas Penmynydd' image carousel gives a strong impression of what the house looks like - which is important because not everyone will be able to visit who has an interest in its history. The homepage with its short blurb beneath the hero image also clearly lays out the historical significance of the house and leads to a better user understanding - eg. this is what the house looks like, this is why its historically unique and this is how you can visit. It clearly leads the user in a way that is informative and concise
-![Home page blurb](docs/screenshots/)
+![Home page blurb](Docs/screenshots/blurb.PNG)
 
 ### **History Page Content:**
 * Includes six sections, each section has a unique anchor that allows the user to pick and choose which section to read from the image menu. To meet the aim of educating the user about the unique history of the house it was necessary to provide a comprehesive history section. Owain Tudor is not a well known figure amongst the Tudors and so its necessary to give the user more information about his life in a way that is engaging and adds to a users appreciation of Plas Penmynydd. To this end paragraphs are kept as short as possible. Text is broken up through the use of images and figcaptions that provide a little visual stimulation and pertain to the subject being discussed. 
@@ -229,7 +234,7 @@ This page is stylized in the same way as the contact page and has the simple mes
 * Images are wrapped in a figure element and given a figcaption to detail who the image portrays.
 * blockquotes are used to contain interesting facts for each section and these are given a subtle background color to help them stand out from the page. These too are wrapped in a figure element.
 
-![Zoomed out image of the history page content section](docs/screenshots/)
+![Zoomed out image of the history page content section](Docs/screenshots/history-overlay.PNG)
 
 ### **Contact Us Page Content:**
 
@@ -310,6 +315,10 @@ Below is a list of problems encountered along the way. More vigrorous testing on
         * Overlay used on image-menu in history.html appeared larger than the image it was covering on large and extra large screen sizes. 
     * ***Solution Used:***
         * Overlay sized to the same size as the images it was overlaying. 
+1. * ***Issue Found:***
+        * Carousel buttons to move onto next and previous image not working on second carousel on history.html page. 
+    * ***Solution Used:***
+        * This was quite a straightforward fix, googled the problem and learnt that if using multiply carousels on same page that they need different id's on the indicator controls.       
         
 ## **Post Development Testing**
 ### **Validators**
