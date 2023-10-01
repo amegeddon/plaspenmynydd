@@ -170,7 +170,7 @@ The hero image shows a side view of Plas Penmynydd with a lion statue in the for
 ![Homepage hero image](Docs/screenshots/hero-image.PNG)
 #### *Visit Plas Penmynydd text box*
 Essentially this exists to directed the users focus down the page and onto the visiting information section. However, it became a good way of selling the Plas and drawing attention to what makes it so historically interesting - namely its link with the Tudor dynasty. Through using a font awesome downward icon I have embedded an anchor link that if clicked takes you to the visiting information section of the homepage. On a mobile device this text box disapears as its not needed given the scaling down of the hero image. 
-![Homepage hero image text box](Docs/screenshots/welcome-image)
+![Homepage hero image text box](Docs/screenshots/welcome-image.PNG)
 
 #### *Visitor information seciton*
 This is organised into three columns: Opening hours, Ticket prices and directions. Again, the focus was on being as simple as possible. Fontawesome icons serve to draw focus and add interest. In the directions column there is an iframe containing googlemap directions for the Plas. Using bootstrap made the organisation of these columns straightforward. particularly when it came to making them responsive. On mobile devices the three columns are reduced to one so as the content of each heading takes up the entire screen width.
