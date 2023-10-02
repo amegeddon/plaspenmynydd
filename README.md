@@ -177,8 +177,8 @@ This is organised into three columns: Opening hours, Ticket prices and direction
 
 #### *Explore Plas Penmynydd section*
 This is the final section of the homepage. This comprises of a gallery of photos of the Plas with short descriptions underneath. To make the captions more visible against the photos I have used some css customisations - by using a black background with an opacity of 0.1 I have given the white text a bit more contrast which has aided the readability of the text. 
-![Homepage explore Plas Penmynydd gallery DESKTOP VIEW](docs/screenshots/explore-desktop.PNG)
-![Homepage explore Plas Penmynydd gallery MOBILE VIEW](docs/screenshots/explore-mobile.PNG)
+![Homepage explore Plas Penmynydd gallery DESKTOP VIEW](Docs/screenshots/explore-desktop.PNG)
+![Homepage explore Plas Penmynydd gallery MOBILE VIEW](Docs/screenshots/explore-mobile.PNG)
 
 ### **History page**:
 #### *Image menu*
@@ -190,7 +190,7 @@ This history page is very heavy on text information with six separate headings. 
 
 #### *History section features:*
 To structure these sections uniformly bootstrap containers have been used. Text and images appears on tablets and desktop devices as occupying 8 columns. Whilst quote boxes with interesting facts occupies the final 4. On mobile and small screen sizes this is all collapsed down to one column that takes up the entire screen width. This is then repeated through all six sections of history. The only departure from this is in the Historical features of the house and Restoration of the house sections, here carousels are used in place of an image as there are several images showing various shields and inscriptions. 
-![History: Section feature DESKTOP VIEW](Docs/screenshots/history-sectionfeature-desktop.PNG)
+![History: Section feature DESKTOP VIEW](Docs/screenshots/history-sectionfeature-DESKTOP.PNG)
 ![History: section feature MOBILE VIEW](Docs/screenshots/history-sectionfeature-mobile.PNG)
 
 ### **Contact us page:**
@@ -204,7 +204,7 @@ This image is taken in the study of Plas Penmynydd and features the library book
 #### *Contact page: contact form*
 The form requires that all inputs are fulfilled in order to send and uses placeholders to direct the user. It was coded using bootstrap 5 and customised to be visually appealing against the background image. The submit button is styled using the green that is used throughout the project. The headings too use the same white and off white to give a cohesive feel to the webpages. 
 
-![Contact page form DESKTOP VIEW](Docs/screenshots/contactform-DESKTOP.PNG)
+![Contact page form DESKTOP VIEW](Docs/screenshots/contactform-desktop.PNG)
 
 ![Contact page form MOBILE VIEW](Docs/screenshots/contactform-mobile.PNG)
 
