@@ -17,11 +17,11 @@ Plas Penmynydd is a private home in rural Anglesey, North Wales. it has the most
     * [***Wireframes***](#wireframes)
     * [***Color Scheme***](#color-scheme)
 1. [**Current Features Common to all pages**](#current-features-common-to-all-pages)
-    * [***Header Element:***](#header-element)
+      * [***Header Element:***](#header-element)
         * [*Title*](#title)
         * [*Logos*](#logos)
         * [*Navigation Bar*](#navigation-bar)
-    * [**Hero Images:**](#hero-images)
+     [**Hero Images:**](#hero-images)
       * [***Homepage***:](#homepage)
           * [*Hero-Image*](#hero-image)
           * [*Homepage hero image text box*](Docs/screenshots/welcome-text.PNG)
@@ -32,7 +32,7 @@ Plas Penmynydd is a private home in rural Anglesey, North Wales. it has the most
           * [*History Image Menu: Desktop*](Docs/screenshots/image-menu-desktop.PNG)
           * [*History: Feature Section- desktop*](Docs/screenshots/history-sectionfeature-desktop.PNG)
           * [*History: Feature section - mobile*](Docs/screenshots/history-sectionfeature-mobile.PNG)
-          * [***Contact page:***](#contact-page)
+     * [***Contact page:***](#contact-page)
           * [*Contact page - Desktop*](Docs/screenshots/contactus-desktop.PNG)
           * [*Contact page - Mobile*](Docs/screenshots/contactus-mobile.PNG)
           * [*Contact page form - Desktop*](Docs/screenshots/contactform-DESKTOP.PNG)
@@ -357,7 +357,7 @@ Below is a list of problems encountered along the way. More vigorous testing on 
 #### ***Desktop Version:***
 
 ![Desktop Lighthouse ORIGINAL SCORE](Docs/screenshots/lighthouse-desktop.png) 
-![Desktop Lighthouse FINAL SCORE](Docs/screenshots/lighthouse-desktop-indexfinal.png) 
+![Desktop Lighthouse FINAL SCORE](Docs/screenshots/lighthouse-desktop-indexfinal.PNG)
 
 **There were several actions required to get to this score:**
 
@@ -368,7 +368,7 @@ Below is a list of problems encountered along the way. More vigorous testing on 
 #### ***Mobile Version:***
 
 ![Mobile Lighthouse ORIGINAL SCORE](Docs/screenshots/lighthouse-mobile.png)
-![Mobile Lighthouse FINAL SCORE](Docs/screenshots/lighthouse-mobile-final.png)
+![Mobile Lighthouse FINAL SCORE](Docs/screenshots/lighthouse-mobile-final.PNG)
 
 1. Much like the desktop page the major issues lay in that index page and the explore feature carousel. Whilst resizing, compressing, and converting all img files to webp pushed the performance score up into the 90s on desktop, on mobile device this only resulted in a score of 82. I suspect if I were to remove this carousel of 11 images it would increase but given that this explore feature was part of my ux design I thought it important enough to keep it. If the performance was below 80 I could have considered using a spinner but 80's not to bad, but definitely something I will be looking at improving in the future. 
 
