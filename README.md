@@ -115,7 +115,7 @@ In order to achieve a website that looked as proffesional as possible it was imp
    
 There was some deviation from the original wireframes:
 
-* The inclusion of a text box 'Visit Plas Penmynydd: the birthplace of a Royal Dynasty' along with a down icon linking to visiting information. This was suggested by my mentor, Richard Wells, who was concerned the user might feel lost in the hero image. The addition of this text box serves to improve the users experience of navigating the page.
+* The inclusion of a text box 'Visit Plas Penmynydd: the birthplace of a Royal Dynasty' along with a down icon linking to visiting information. This was a design choice made out of concerned that the user might feel lost in the hero image. The addition of this text box serves to improve the users experience of navigating the page.
 
 * The exclusion of social media links in the footer, this was owing to the house owners request not to have to involve themselves in socials.
 
@@ -278,22 +278,22 @@ This page is stylized in the same way as the contact page and has the simple mes
 1. Through using W3C Markup Validation to validate HTML and W3C CSS validation to validate CSS regularly through the projects development helped ensure that there were no coding errors as I progressed through the build. 
 
 ### ***Manual Testing:***
-* 
-I have tested the site on the following browsers:
+* A lot of the testing here was in the form of making sure nav links worked by clicking them and ensuring they led to the right destination. Carousels were left running in order to consider what the best transition time between image changes would be best and indicator buttons clicked to ensure that images moved on to the next and previous slide. The form on the contact page was tested by trying to submit without having filled out required information. It was then submited to ensure that the thankyou.html page was operating correctly. Additionally, I have tested the site on the following browsers:
 
   1. Chrome
   2. safari  
   3. Internet explorer 
   4. Edge
 
+  The website appeared fine and functional on all browsers. The welcome text box that overlays the hero image appeared signicantly smaller on internet explorer and edge but other than this there was nothing of concern.
+
 * Chrome devtools allowed me to view the responsiveness on a range of different devices, I made use of many of them and made adjustments where needed through the use of media queries. The biggest issue I found here was on tablet views, in response I created a media query specifically targeting tablet devices to resolve this. 
 
 I also used the devtools to simulate different screen sizes/devices from 320 px up to 4000px in width. 
 
 * The project was shared in the class slack channel asking if fellow students might review the site and report any issues. It was reported that on small mobile screen sizes elements were appearing out of alignment. I hadnt realised that there were screensizes smaller than 320px. This was fixed with a media query specifically targeting mobiles with a 260-320 screen size width.
+
 * Additionally, I also tested the site on friends mobiles and found no issues or bugs.
-
-
 
 ### ***Bugs and Fixes:***
 
@@ -338,7 +338,6 @@ Below is a list of problems encountered along the way. More vigrorous testing on
         
 ## **Post Development Testing**
 ### **Validators**
-
 #### ***HTML*** - https://validator.w3.org/nu/
 
 * ***Issue Found:***
@@ -354,38 +353,30 @@ Below is a list of problems encountered along the way. More vigrorous testing on
 
 ### **Lighthouse Scores**
 ### **Test conditions**
-* 
+* Tests were ran whilst browser page was in incognito mode
 * I ran the tests for both mobile and desktop. 
 
 #### ***Desktop Version:***
 
 
-![Desktop Lighthouse Score](Docs/screenshots/lighthouse-mobile.png) 
+![Desktop Lighthouse ORIGINAL SCORE](Docs/screenshots/lighthouse-desktop.png) 
+![Desktop Lighthouse FINAL SCORE](Docs/screenshots/lighthouse-desktop-indexfinal.png) 
 
 **There were several actions required to get to this score:**
 
-1. 
+1. The main issue were the amount of images on the index.html page, the size of these images both in pixel width and physical size was causing a very slow loading of the page. Through resizing all the images, compressing them and then converting them to webp files reduced the weight of this project from 80mb to 11.3mb. I have included the screenshot of the index page only as the history and contact page being significantly smaller in payload havent been such an issue and both are consistently scoring 100, 95, 100, 100.
 
-1. 
+1. The accesibilty score was considerably easier to improved as I had made some silly errors. Some images were missing alts and their was not sufficient contrast on foreground and background elements. It has remained at 95 as I liked the softened look of the text below the footer. It was at this stage of development that I noticed that the nav links were slightly different on the history and contact pages. Lighthouse was indicating that on just these pages there was a contrast issue, which did not exist on the index page. Having looked more closely with devtools I have noticed that the navbrand appears larger on these two pages. Having thoroughly investigated this I cannot fathom why this is, its the same font size and no css is being applied to this navbar in a way that would impact these two pages along and yet the container that the navbrand sits in is larger. This remains a mystery to me and I will add this as an ongoing problem in my bugs and fixes section. In order to achieve a better score here it was necessary for me to change the h5 headings in the carousel to h4 in order to be sequential in my heading use. However, lighthouse continually picks up just one image from this carousel that it is unhappy with the use of the h4 heading element. 
+
 
 #### ***Mobile Version:***
 
-* 
-![Desktop Lighthouse Score](Docs/screenshots/lighthouse-desktop.png)
+![Mobile Lighthouse ORIGINAL SCORE](Docs/screenshots/lighthouse-mobile.png)
+![Mobile Lighthouse FINAL SCORE](Docs/screenshots/lighthouse-mobile-final.png)
 
-1. ***index.html:***
+1. Much like the desktop page the major issues lay in that index page and the explore feature carousel. Whilst resizing, compressing and converting all img files to webp pushed the performance score up into the 90s on desktop, on mobile device this only resulted in a score of 82. I suspect if I were to remove this carousel of 11 images it would increase but given that this explore feature was part of my ux design I thought it important enough to keep it. If the performance was below 80 I could have considered using a spinner but 80's not to bad, but definetly something I will be looking at improving in the future. 
 
-    ![Mobile Lighthouse Score for index.html](docs/screenshots/) 
-
-    * Originally, the performance score on the page was around 
-
-2. ***history:***
-
-    ![Mobile Lighthouse Score for teachings.html](docs/screenshots/)
-
-3. ***contact.html:***
-
-    ![Mobile Lighthouse Score for community.html](docs/screenshots/) 
+2. The accessibilty score was increased by putting a green background to the ticket information and changing the font color. However, the score here remains at 95 owing to the use of that softer look on the footer text. 
 
 ## **Deployment**
 I deployed the page on GitHub pages via the following procedure: -
@@ -398,6 +389,7 @@ I deployed the page on GitHub pages via the following procedure: -
 ## **Credits**
 * The code used to provide transition effect on the Homepage Carousel was found through the slack community channel, where someone had previously struggled with the same issue I was having. I was able to take some of the code provided there and incorporate it into my project. 
 * The overlay effect on the history page images elluded me for the longest time, I am so grateful to the code institute tutor who broke down what it was I was tryign to achieve and provided a clear way forward. 
+* Bootstrap 5 - I have made use of bootstrap as much as possible, from its preloaded code for carousels and forms to classes for positioning. It makes responsive building so much easier. 
 
 ### **Acknowledgements**
 I would like to thank my fellow students of code institutes June Wales intake, a lovely group of people who keep the momentum going even when things look a bit daunting. A special mention goes to:
