@@ -106,7 +106,7 @@ In order to achieve a website that looked as professional as possible it was imp
     * [Contact page](Docs/wireframes/mobile-contact.PNG)
 
 * Desktop wireframes:
-    * [Homepage](Docs/wireframes/homepage-desktop.PNG)
+    * [Homepage](Docs/wireframes/homepage-desktop.png)
     * [History page](Docs/wireframes/wireframe-desktop-history.PNG)
     * [History page](Docs/wireframes/wireframe-desktop-history1.PNG)
     * [Contact page](Docs/wireframes/wireframe-desktop-contact.PNG)
