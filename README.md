@@ -27,7 +27,7 @@ Plas Penmynydd is a private home in rural Anglesey, North Wales. it has the most
           * [*Homepage hero image text box*](Docs/screenshots/welcome-text.PNG)
           * [*Homepage visitor info DESKTOP VIEW*](Docs/screenshots/info-section-desktop.PNG)
          * [*Homepage visitor info MOBILE VIEW*](Docs/screenshots/info-section-mobile.PNG)
-      * [***History page***:](#history-page)
+      * [***History page:***](#history-page)
           * [*History Image Menu: Mobile*](Docs/screenshots/image-menu-mobile.PNG)
           * [*History Image Menu: Desktop*](Docs/screenshots/image-menu-desktop.PNG)
           * [*History: Feature Section- desktop*](Docs/screenshots/history-sectionfeature-DESKTOP.PNG)
@@ -193,7 +193,7 @@ To structure these sections uniformly bootstrap containers have been used. Text 
 ![History: Section feature DESKTOP VIEW](Docs/screenshots/history-sectionfeature-DESKTOP.PNG)
 ![History: section feature MOBILE VIEW](Docs/screenshots/history-sectionfeature-mobile.PNG)
 
-### **Contact us page:**
+### **Contact page:**
 #### *Background-Image:*
 This image is taken in the study of Plas Penmynydd and features the library bookcases. The intention was to provide a backdrop that was visually stimulating but did not distract too much from the contact form which floats transparently over the image. 
 
