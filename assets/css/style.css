@@ -347,14 +347,12 @@ input[type="text"], input[type="email"] {
   letter-spacing: 1.5px;
   font-size: 2em;
   color: #ebe1cd;
-  font-style: bold;
 }
 
 #contactpage h2 {
   font-weight: 600;
   font-family:'EB Garamond', serif; 
   letter-spacing: 1.5px;
-  font-style: bold;
 }
 
 #contactpage img {
