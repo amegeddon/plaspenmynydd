@@ -29,8 +29,8 @@ Plas Penmynydd is a private home in rural Anglesey, North Wales. it has the most
          * [*Homepage visitor info MOBILE VIEW*](docs/screenshots/)
       * [***History page***:](#history-page)
           * [*History link images*](docs/screenshots/)
-          * [*History: The life of Owain Tudor*](docs/screenshots/)
-          * [*History: The Tudors in North Wales*](docs/screenshots/)
+          * [*History: Feature Section*](docs/screenshots/)
+          * [*History: Additional Feature section*](docs/screenshots/)
           * [***Contact page:***](#contact-page)
           * [*Contact page*](docs/screenshots/)
           * [*Contact page form*](docs/screenshots/)
@@ -56,9 +56,7 @@ Plas Penmynydd is a private home in rural Anglesey, North Wales. it has the most
   * [**Lighthouse Scores**](#lighthouse-scores)
       * [*Desktop Version:*](#desktop-version)
       * [*Mobile Version*](#mobile-version)
-      * [*Lighthouse Score Feedback From Third Party Testers*](#lighthouse-score-feedback-from-third-party-testers)
-  * [**Accessibility**](#accessability)
-    
+
 1. [**Future-Enhancements**](#future-enhancements)
 1. [**Testing Phase**](#testing-phase)
 1. [**Deployment**](#deployment)
@@ -109,9 +107,9 @@ In order to achieve a website that looked as professional as possible it was imp
 
 * Desktop wireframes:
     * [Homepage](Docs/wireframes/homepage-desktop.PNG)
-    * [History page](Docs/wireframes/wireframe-history-desktop.PNG)
-    * [History page](Docs/wireframes/wireframe-history-desktop1.PNG)
-    * [Contact page](Docs/wireframes/wireframe-desktop-history.PNG)
+    * [History page](Docs/wireframes/wireframe-desktop-history.PNG)
+    * [History page](Docs/wireframes/wireframe-desktop-history1.PNG)
+    * [Contact page](Docs/wireframes/wireframe-desktop-contact.PNG)
    
 There was some deviation from the original wireframes:
 
