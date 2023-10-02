@@ -345,7 +345,7 @@ Below is a list of problems encountered along the way. More vigrorous testing on
     * In history.html the validator was giving error messages for the image menu links, informing that no closing </a> could be found. 
 * ***Solution Used:***
     * After a little trial and error I realised that I had wrongly wrapped the entire div container with the anchor link. Using them solely around the overlay text remedied this issue. 
-    ![html validator badge](Docs/screenshots/)
+    ![html validator screenshot](Docs/screenshots/htmlvalidator.PNG)
 
 #### ***CSS*** - https://jigsaw.w3.org/css-validator/
 
