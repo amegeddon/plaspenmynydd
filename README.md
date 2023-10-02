@@ -24,16 +24,19 @@ Plas Penmynydd is a private home in rural Anglesey, North Wales. it has the most
     * [**Hero Images:**](#hero-images)
       * [***Homepage***:](#homepage)
           * [*Hero-Image*](#hero-image)
-          * [*Homepage hero image text box*](docs/screenshots/)
-          * [*Homepage visitor info DESKTOP VIEW*](docs/screenshots/)
-         * [*Homepage visitor info MOBILE VIEW*](docs/screenshots/)
+          * [*Homepage hero image text box*](Docs/screenshots/welcome-text.PNG)
+          * [*Homepage visitor info DESKTOP VIEW*](Docs/screenshots/info-section-desktop.PNG)
+         * [*Homepage visitor info MOBILE VIEW*](Docs/screenshots/info-section-mobile.PNG)
       * [***History page***:](#history-page)
-          * [*History link images*](docs/screenshots/)
-          * [*History: Feature Section*](docs/screenshots/)
-          * [*History: Additional Feature section*](docs/screenshots/)
+          * [*History Image Menu: Mobile*](Docs/screenshots/image-menu-mobile.PNG)
+          * [*History Image Menu: Desktop*](Docs/screenshots/image-menu-desktop.PNG)
+          * [*History: Feature Section- desktop*](Docs/screenshots/history-sectionfeature-desktop.PNG)
+          * [*History: Feature section - mobile*](Docs/screenshots/history-sectionfeature-mobile.PNG)
           * [***Contact page:***](#contact-page)
-          * [*Contact page*](docs/screenshots/)
-          * [*Contact page form*](docs/screenshots/)
+          * [*Contact page - Desktop*](Docs/screenshots/contactus-desktop.PNG)
+          * [*Contact page - Mobile*](Docs/screenshots/contactus-mobile.PNG)
+          * [*Contact page form - Desktop*](Docs/screenshots/contactform-DESKTOP.PNG)
+          * [*Contact page form - Mobile*](Docs/screenshots/contactform-mobile.PNG)
           * [***Thankyou page:***](#thankyou-page)
           * [**Footer**](#footer)
       * [**Typography**](#typography)
@@ -107,8 +110,8 @@ In order to achieve a website that looked as professional as possible it was imp
 
 * Desktop wireframes:
     * [Homepage](Docs/wireframes/homepage-desktop.png)
-    * [History page](Docs/wireframes/wireframe-desktop-history.PNG)
-    * [History page](Docs/wireframes/wireframe-desktop-history1.PNG)
+    * [History page: Image menu](Docs/wireframes/wireframe-desktop-history.PNG)
+    * [History page: feature section](Docs/wireframes/wireframe-desktop-history1.PNG)
     * [Contact page](Docs/wireframes/wireframe-desktop-contact.PNG)
    
 There was some deviation from the original wireframes:
@@ -178,7 +181,7 @@ This is the final section of the homepage. This comprises of a gallery of photos
 ![Homepage explore Plas Penmynydd gallery MOBILE VIEW](docs/screenshots/explore-mobile.PNG)
 
 ### **History page**:
-#### *Image links*
+#### *Image menu*
 This history page is very heavy on text information with six separate headings. These sections have been arranged so as they can be navigated to through the use of this image menu. Using a text overlay upon hovering over the image keeps the image simple and uncluttered. Users are good at recognising images as navigational links and the use of the text overlay serves to highlight that these are links to the different headings within the page. The six sections are: 1. The life of Owain Tudor 2. Tudors in North Wales 3. Penmynydd Church 4. The history of Plas Penmynydd 5. Plas Penmynydd restoration process 6. Historic features of the house. I will focus on the first two in this readme file. Viewed on a mobile device this image menu collapses a little to two image links per row, rather than the three that we see on the desktop.
 
 ![History link images DESKTOP VIEW](Docs/screenshots/image-menu-mobile.PNG)
