@@ -104,14 +104,14 @@ In order to achieve a website that looked as professional as possible it was imp
 
 * Mobile Wireframes:
     * [Homepage](Docs/wireframes/mobile-home.PNG)
-    * [History page](docs/wireframes/mobile-history.PNG)
-    * [Contact page](docs/wireframes/mobile-contact.PNG)
+    * [History page](Docs/wireframes/mobile-history.PNG)
+    * [Contact page](Docs/wireframes/mobile-contact.PNG)
 
 * Desktop wireframes:
     * [Homepage](Docs/wireframes/homepage-desktop.PNG)
     * [History page](Docs/wireframes/wireframe-history-desktop.PNG)
     * [History page](Docs/wireframes/wireframe-history-desktop1.PNG)
-    * [Contact page](docs/wireframes/wireframe-desktop-history.PNG)
+    * [Contact page](Docs/wireframes/wireframe-desktop-history.PNG)
    
 There was some deviation from the original wireframes:
 
