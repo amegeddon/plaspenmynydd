@@ -35,7 +35,7 @@ Plas Penmynydd is a private home in rural Anglesey, North Wales. it has the most
      * [***Contact page:***](#contact-page)
           * [*Contact page - Desktop*](Docs/screenshots/contactus-desktop.PNG)
           * [*Contact page - Mobile*](Docs/screenshots/contactus-mobile.PNG)
-          * [*Contact page form - Desktop*](Docs/screenshots/thankyou-desktop.PNG)
+          * [*Contact page form - Desktop*](Docs/screenshots/contactform-desktop.PNG)
           * [*Contact page form - Mobile*](Docs/screenshots/contactform-mobile.PNG)
           * [***Thankyou page:***](#thankyou-page)
           * [**Footer**](#footer)
