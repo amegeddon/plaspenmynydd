@@ -279,17 +279,18 @@ This page is stylized in the same way as the contact page and has the simple mes
 
 ### ***Manual Testing:***
 * 
+I have tested the site on the following browsers:
 
   1. Chrome
   2. safari  
   3. Internet explorer 
   4. Edge
 
-* Chrome devtools allowed me to view the responsiveness on a range of different devices, I made use of all them and made adjustments where needed through the use of media queries. The biggest issue I found here was on tablet views, in response I created a media query specifically targeting tablet devices to resolve this. 
+* Chrome devtools allowed me to view the responsiveness on a range of different devices, I made use of many of them and made adjustments where needed through the use of media queries. The biggest issue I found here was on tablet views, in response I created a media query specifically targeting tablet devices to resolve this. 
 
-I then used the devtools to simulate different screen sizes/devices from 320 px up to 4000px in width. 
+I also used the devtools to simulate different screen sizes/devices from 320 px up to 4000px in width. 
 
-* The project was also shared in the class slack channel asking if fellow students might review the site and report any issues. There were no issues reported. 
+* The project was shared in the class slack channel asking if fellow students might review the site and report any issues. It was reported that on small mobile screen sizes elements were appearing out of alignment. I hadnt realised that there were screensizes smaller than 320px. This was fixed with a media query specifically targeting mobiles with a 260-320 screen size width.
 * Additionally, I also tested the site on friends mobiles and found no issues or bugs.
 
 
@@ -344,6 +345,7 @@ Below is a list of problems encountered along the way. More vigrorous testing on
     * In history.html the validator was giving error messages for the image menu links, informing that no closing </a> could be found. 
 * ***Solution Used:***
     * After a little trial and error I realised that I had wrongly wrapped the entire div container with the anchor link. Using them solely around the overlay text remedied this issue. 
+    ![html validator badge](Docs/screenshots/)
 
 #### ***CSS*** - https://jigsaw.w3.org/css-validator/
 
@@ -385,11 +387,6 @@ Below is a list of problems encountered along the way. More vigrorous testing on
 
     ![Mobile Lighthouse Score for community.html](docs/screenshots/) 
 
-  
-### **Accessability**
-
-[return to README.md](README.md)
-***
 ## **Deployment**
 I deployed the page on GitHub pages via the following procedure: -
 
@@ -398,19 +395,18 @@ I deployed the page on GitHub pages via the following procedure: -
 3. Under the **Source** section, select the **Main** branch from the drop-down menu and click **Save**.
 4. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
 
-You can find the live site via the following URL - [Plas Penmynydd live webpage](https://github.com/amegeddon/plaspenmynydd)
-***
 ## **Credits**
 * The code used to provide transition effect on the Homepage Carousel was found through the slack community channel, where someone had previously struggled with the same issue I was having. I was able to take some of the code provided there and incorporate it into my project. 
 * The overlay effect on the history page images elluded me for the longest time, I am so grateful to the code institute tutor who broke down what it was I was tryign to achieve and provided a clear way forward. 
-### **Acknowledgements**
-I would like to thank my fellow students of code institutes June Wales intake, a lovely group of people who are just lovely and keep the momentum going even when things look a bit daunting. and special mention to:
 
-* [Richard Wells](https://github.com/D0nni387) - Code Institute Mentor who has gone above and beyond what was expected of him to help me get this far in the course.
+### **Acknowledgements**
+I would like to thank my fellow students of code institutes June Wales intake, a lovely group of people who keep the momentum going even when things look a bit daunting. A special mention goes to:
+
+* [Richard Wells](https://github.com/D0nni387) - Code Institute Mentor who has been so encouraging and generous with his time and expertise. 
 
 
 ### **Media:**
 
-* Images requiring compression were done using - [tiny.png](https://tinypng.com) 
-
+* Images requiring compression were done using - [optinizilla](https://imagecompressor.com/) 
+* images converted to webp using - [tiny img](https://tiny-img.com/webp/)
 
