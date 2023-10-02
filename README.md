@@ -2,7 +2,7 @@
    (pronounced Plas Pen-MUN-idh)
 ## **Site Overview**
 
-You can find the live site via the following URL - [Plas Penmynydd live webpage](https://github.com/amegeddon/plaspenmynydd)
+You can find the live site via the following URL - [Plas Penmynydd live webpage](https://amegeddon.github.io/plaspenmynydd/index.html)
 
 Plas Penmynydd is a private home in rural Anglesey, North Wales. it has the most incredible history that its current owner has spent a lifetime restoring and sharing with others. Plas Penmynydd is the ancestral home of the Tudor family and birthplace of Owain Tudor, Grandfather of Henry VII. This website primarily provides a formal platform that lets people know that the house is open to the public during specific periods of the year. This was the main remit of this website, to provide an attractive, proffesional looking site that provided information regarding how to find the house and when to visit. Many people have visited the house over the years through open days advertised locally and through one off chance visits but the owner would like to reach a wider audience. Another aspect that was important was education - regarding the significant history of the house. This is explored in the history page and will no doubt be an ongoing project.
 
