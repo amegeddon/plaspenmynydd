@@ -250,9 +250,9 @@ This page is stylized in the same way as the contact page and has the simple mes
 * With minimal features and complexity to add to useability and a better user experience, this page consists of a h2 and h4 heading elements with a simple bootstrap form beneath and to the centre of the page. This form has just three inputs - name, email, and message. Followed by a send button. This has then been customised through css to give it a consistency in terms of color and font style with the rest of the website.
 * On mobile view this form content takes up much more of the viewing screen and this is to optimise user experience, as it makes the form far more readable and easier to use. 
 
-![Contact page DESKTOP VIEW](Docs/screenshot/contact-desktop.PNG)
+![Contact page DESKTOP VIEW](Docs/screenshots/contact-desktop.PNG)
 
-![Contact page MOBILE VIEW](docs/screenshot/contact-mobile.PNG) 
+![Contact page MOBILE VIEW](Docs/screenshots/contact-mobile.PNG)
 
 ## **Future-Enhancements**
 
