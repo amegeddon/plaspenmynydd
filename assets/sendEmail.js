@@ -1,30 +1,19 @@
-
-
- /*var templateParams = {
-    name: 'Amy',
-    notes: 'Check this out!'
-};*/
-
 function sendMail(contactForm) {
     emailjs.send("service_naeyqkf", "template_nbukpv4", {
         "from_name": contactForm.nameinput.value,
-        "from_email": contactForm.emailinputs.value,
-        "project_request": contactForm.messagearea.value
+        "from_email": contactForm.emailinput.value,
+        "message": contactForm.messagearea.value
     })
     .then(
         function(response) {
             console.log("SUCCESS", response);
+            window.location.href = "thankyou.html";
         },
         function(error) {
             console.log("FAILED", error);
+            window.location.href = "404.html";
         }
     );
-    return false;  // To block from loading a new page
+    return false;  
 }
  
-/*handleFormSubmission(form)('service_naeyqkf', 'template_nbukpv4', templateParams)
-    .then(function(response) {
-       console.log('SUCCESS!', response.status, response.text);
-    }, function(error) {
-       console.log('FAILED...', error);
-    });*/
