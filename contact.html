@@ -20,12 +20,22 @@
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
 </script>
 <script type="text/javascript">
-   (function(){
-      emailjs.init("NsT_2fMlg40SsK5X4");
-      emailjs.send("gmail", "template_nbukpv4", {name:"amy", notes: "check this out"});
+  (function(){
+     emailjs.init("NsT_2fMlg40SsK5X4");
 
-   })();
+     var data = {name: "amy", notes: "check this out"};
+
+     console.log("Data to be sent:", data);
+
+     emailjs.send("gmail", "template_nbukpv4", data)
+        .then(function(response) {
+           console.log("Email sent successfully:", response);
+        }, function(error) {
+           console.error("Email sending failed:", error);
+        });
+  })();
 </script>
+
   </head>
   <body>
     
